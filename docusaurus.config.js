@@ -11,7 +11,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'lsfusion', // Usually your GitHub org/user name.
+  organizationName: 'lsfusion-solutions', // Usually your GitHub org/user name.
   projectName: 'mycompany-docs', // Usually your repo name.
   trailingSlash: true,
  
