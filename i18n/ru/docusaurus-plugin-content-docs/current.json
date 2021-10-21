@@ -1,0 +1,98 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.MyCompany": {
+    "message": "MyCompany",
+    "description": "The label for category MyCompany in sidebar docs"
+  },
+  "sidebar.docs.category.Installation": {
+    "message": "Установка",
+    "description": "The label for category Installation in sidebar docs"
+  },
+  "sidebar.docs.category.Administration": {
+    "message": "АДМИНИСТРИРОВАНИЕ",
+    "description": "The label for category Administration in sidebar docs"
+  },
+  "sidebar.docs.category.General settings and master data": {
+    "message": "ОБЩАЯ НАСТРОЙКА И СПРАВОЧНИКИ",
+    "description": "The label for category General settings and master data in sidebar docs"
+  },
+  "sidebar.docs.category.Sales": {
+    "message": "Модуль Продаж",
+    "description": "The label for category Sales in sidebar docs"
+  },
+  "sidebar.docs.category.Pricelists": {
+    "message": "Использование прайс-листов товаров",
+    "description": "The label for category Pricelists in sidebar docs"
+  },
+  "sidebar.docs.category.Invoicing": {
+    "message": "Модуль Расчеты",
+    "description": "The label for category Invoicing in sidebar docs"
+  },
+  "sidebar.docs.category.Settings": {
+    "message": "Настройки",
+    "description": "The label for category Settings in sidebar docs"
+  },
+  "sidebar.docs.category.Reporting": {
+    "message": "Отчеты",
+    "description": "The label for category Reporting in sidebar docs"
+  },
+  "sidebar.docs.category.Purchase": {
+    "message": "Модуль Закупки",
+    "description": "The label for category Purchase in sidebar docs"
+  },
+  "sidebar.docs.category.Inventory": {
+    "message": "Модуль Склад",
+    "description": "The label for category Inventory in sidebar docs"
+  },
+  "sidebar.docs.category.Manufacturing": {
+    "message": "Модуль Производство",
+    "description": "The label for category Manufacturing in sidebar docs"
+  },
+  "sidebar.docs.category.Wholesale": {
+    "message": "ОПТОВАЯ ТОРГОВЛЯ",
+    "description": "The label for category Wholesale in sidebar docs"
+  },
+  "sidebar.docs.category.Purchasing": {
+    "message": "Закупка товара",
+    "description": "The label for category Purchasing in sidebar docs"
+  },
+  "sidebar.docs.category.Receipts": {
+    "message": "Поставка товара",
+    "description": "The label for category Receipts in sidebar docs"
+  },
+  "sidebar.docs.category.Sale of goods": {
+    "message": "Продажа товара",
+    "description": "The label for category Sale of goods in sidebar docs"
+  },
+  "sidebar.docs.category.Cross-docking": {
+    "message": "Продажа со склада поставщика",
+    "description": "The label for category Cross-docking in sidebar docs"
+  },
+  "sidebar.docs.category.Retail": {
+    "message": "РОЗНИЧНАЯ ТОРГОВЛЯ",
+    "description": "The label for category Retail in sidebar docs"
+  },
+  "sidebar.docs.category.General settings": {
+    "message": "Общие настройки",
+    "description": "The label for category General settings in sidebar docs"
+  },
+  "sidebar.docs.category.POS": {
+    "message": "Рабочее место кассира",
+    "description": "The label for category POS in sidebar docs"
+  },
+  "sidebar.docs.category.Manufacturing management": {
+    "message": "ПРОИЗВОДСТВО ПО ЗАКАЗУ",
+    "description": "The label for category Manufacturing management in sidebar docs"
+  },
+  "sidebar.docs.category.Bills of Materials": {
+    "message": "Составление спецификации",
+    "description": "The label for category Bills of Materials in sidebar docs"
+  },
+  "sidebar.docs.category.Services": {
+    "message": "ОКАЗАНИЕ УСЛУГ",
+    "description": "The label for category Services in sidebar docs"
+  }
+}
