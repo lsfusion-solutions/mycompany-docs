@@ -1,6 +1,5 @@
 ---
-title: 'Services: Overview'
-sidebar_label: Overview
+title: 'Services'
 ---
 
 Registration and tracking of service delivery, consumed materials and time, orders planning, allocation and distribution.

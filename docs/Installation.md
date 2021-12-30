@@ -1,6 +1,5 @@
 ---
-title: 'Installation: Overview'
-sidebar_label: Overview
+title: 'Installation'
 ---
 
 To install the solution, you will need a server running a Linux or Windows operating system that is connected to the Internet. 

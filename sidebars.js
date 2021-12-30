@@ -5,16 +5,16 @@ module.exports = {
     {
       type: 'category',
       label: 'Installation',
+      link: {type: 'doc', id: 'Installation'},
       items: [
-        'Installation', 
         'MyCompany_migration_to_another_server', 
       ]
     },
     {
       type: 'category',
       label: 'Administration',
+      link: {type: 'doc', id: 'Administration'},
       items: [
-        'Administration', 
         'User_roles', 
         'Role_permissions', 
         'Users', 
@@ -24,8 +24,8 @@ module.exports = {
     {
       type: 'category',
       label: 'General settings and master data',
+      link: {type: 'doc', id: 'General_settings_and_master_data'},
       items: [
-        'General_settings_and_master_data', 
         'Numerators', 
         'Partners_directory', 
         'Categories', 
@@ -39,13 +39,13 @@ module.exports = {
     {
       type: 'category',
       label: 'Sales',
+      link: {type: 'doc', id: 'Sales'},
       items: [
-        'Sales', 
         {
           type: 'category',
           label: 'Pricelists',
+          link: {type: 'doc', id: 'Pricelists'},
           items: [
-            'Pricelists', 
             'Pricelist_types', 
           ]
         },
@@ -57,13 +57,13 @@ module.exports = {
     {
       type: 'category',
       label: 'Invoicing',
+      link: {type: 'doc', id: 'Invoicing'},
       items: [
-        'Invoicing', 
         {
           type: 'category',
           label: 'Settings',
+          link: {type: 'doc', id: 'Settings'},
           items: [
-            'Settings', 
             'Bill_type', 
             'Invoice_type', 
             'Payment_type', 
@@ -72,8 +72,8 @@ module.exports = {
         {
           type: 'category',
           label: 'Reporting',
+          link: {type: 'doc', id: 'Reporting'},
           items: [
-            'Reporting', 
             'Payments', 
             'Invoices_report', 
           ]
@@ -83,8 +83,8 @@ module.exports = {
     {
       type: 'category',
       label: 'Purchase',
+      link: {type: 'doc', id: 'Purchase'},
       items: [
-        'Purchase', 
         'Purchase_order_type', 
         'Vendor_pricelists', 
       ]
@@ -92,8 +92,8 @@ module.exports = {
     {
       type: 'category',
       label: 'Inventory',
+      link: {type: 'doc', id: 'Inventory'},
       items: [
-        'Inventory', 
         'Location_settings', 
         'Shipment_type', 
         'Receipt_type', 
@@ -102,27 +102,27 @@ module.exports = {
     {
       type: 'category',
       label: 'Manufacturing',
+      link: {type: 'doc', id: 'Manufacturing'},
       items: [
-        'Manufacturing', 
         'Manufacturing_order_type', 
       ]
     },
     {
       type: 'category',
       label: 'Wholesale',
+      link: {type: 'doc', id: 'Wholesale'},
       items: [
-        'Wholesale', 
         {
           type: 'category',
           label: 'Purchasing',
+          link: {type: 'doc', id: 'Purchasing'},
           items: [
-            'Purchasing', 
             'Puchase_order', 
             {
               type: 'category',
               label: 'Receipts',
+              link: {type: 'doc', id: 'Receipts'},
               items: [
-                'Receipts', 
                 'Multiple_receipts', 
               ]
             },
@@ -133,16 +133,16 @@ module.exports = {
         {
           type: 'category',
           label: 'Sale of goods',
+          link: {type: 'doc', id: 'Sale_of_goods'},
           items: [
-            'Sale_of_goods', 
             'Customer_orders', 
             'Shipments', 
             'Customer_invoice_and_Payment_collection', 
             {
               type: 'category',
               label: 'Cross-docking',
+              link: {type: 'doc', id: 'Cross-docking'},
               items: [
-                'Cross-docking', 
                 'Cross-docking_settings', 
                 'Cross-docking_orders', 
               ]
@@ -155,13 +155,13 @@ module.exports = {
     {
       type: 'category',
       label: 'Retail',
+      link: {type: 'doc', id: 'Retail'},
       items: [
-        'Retail', 
         {
           type: 'category',
           label: 'General settings',
+          link: {type: 'doc', id: 'General_settings'},
           items: [
-            'General_settings', 
             'Cash_registers', 
             'Discount_cards', 
           ]
@@ -169,8 +169,8 @@ module.exports = {
         {
           type: 'category',
           label: 'POS',
+          link: {type: 'doc', id: 'POS'},
           items: [
-            'POS', 
             'Customer_order_paid_on_POS', 
             'Returns', 
           ]
@@ -182,13 +182,13 @@ module.exports = {
     {
       type: 'category',
       label: 'Manufacturing management',
+      link: {type: 'doc', id: 'Manufacturing_management'},
       items: [
-        'Manufacturing_management', 
         {
           type: 'category',
           label: 'Bills of Materials',
+          link: {type: 'doc', id: 'Bills_of_Materials'},
           items: [
-            'Bills_of_Materials', 
             'Cost_of_BoM', 
           ]
         },
@@ -201,8 +201,8 @@ module.exports = {
     {
       type: 'category',
       label: 'Services',
+      link: {type: 'doc', id: 'Services'},
       items: [
-        'Services', 
         'Selling_sevices_at_the_point_of_delivery', 
         'Pre-ordered_services', 
       ]

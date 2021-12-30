@@ -1,6 +1,5 @@
 ---
-title: 'Manufacturing: Overview'
-sidebar_label: Overview
+title: 'Manufacturing'
 ---
 
 Automation of simple and complex manufacturing processes based on Bills of Materials, automatically created manufacturing orders, control and writing-off consumed materials, registration of finished products.

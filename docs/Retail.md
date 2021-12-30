@@ -1,6 +1,5 @@
 ---
-title: 'Retail: Overview'
-sidebar_label: Overview
+title: 'Retail'
 ---
 
 User-friendly interface and possibility to use a standard PC instead of a cash register make MyCompany POS siutable for any retail facility. 

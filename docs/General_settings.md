@@ -1,6 +1,5 @@
 ---
-title: 'General settings: Overview'
-sidebar_label: Overview
+title: 'General settings'
 ---
 
 Для слаженной работы модуля необходимо осуществить некоторые настройки в **Розничная торговля** - **Настройки**.

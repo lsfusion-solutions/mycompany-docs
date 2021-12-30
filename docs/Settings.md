@@ -1,6 +1,5 @@
 ---
-title: 'Settings: Overview'
-sidebar_label: Overview
+title: 'Settings'
 ---
 
 -   [Bill type](Bill_type.md)

@@ -1,6 +1,5 @@
 ---
-title: 'Sale of goods: Overview'
-sidebar_label: Overview
+title: 'Sale of goods'
 ---
 
 -   [Customer orders](Customer_orders.md)

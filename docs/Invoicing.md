@@ -1,6 +1,5 @@
 ---
-title: 'Invoicing: Overview'
-sidebar_label: Overview
+title: 'Invoicing'
 ---
 
 Control over company's finance, terms of delivery, payments and debts, fast returns.
