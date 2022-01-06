@@ -2,9 +2,9 @@
 title: 'Retail'
 ---
 
-User-friendly interface and possibility to use a standard PC instead of a cash register make MyCompany POS siutable for any retail facility. 
+User-friendly interface and possibility to use a standard PC instead of a cash register make MyCompany POS suitable for any retail facility.
 
-To ensure that POS works correctly and you can use all of its capabilities, carefully examine the module settings. 
+To ensure that POS works correctly and you can use all of its capabilities, carefully examine the module settings.
 
   
 
