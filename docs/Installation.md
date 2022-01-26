@@ -16,7 +16,9 @@ It must have a minimum of 2 gigabytes of RAM and open ports 8080 for web client 
 
 **Install MyCompany business logic:**
 
-`root@centos7: yum install -y wgetroot@centos7: wget http://download.lsfusion.org/solutions/mycompany-1.0.jar -O /var/lib/lsfusion/mycompany.jar`
+`root@centos7: yum install -y wget`
+
+`root@centos7: wget http://download.lsfusion.org/solutions/mycompany-1.0.jar -O /var/lib/lsfusion/mycompany.jar`
 
 `root@centos7: echo "logics.topModule = MyCompanyRu" >> /etc/lsfusion4-server/settings.properties`
 
