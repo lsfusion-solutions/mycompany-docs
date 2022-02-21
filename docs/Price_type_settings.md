@@ -6,14 +6,12 @@ title: 'Price type settings'
 
 Виды цен настраиваются в **Продажи - Виды цен**. Кликните **Добавить** и выполните необходимые настройки.
 
-![](attachments/1802808/1802809.png)
-
+![](images/Price_type_settings_1.png)
 *Рис. 1 Список видов цен*
 
   
 
-![](attachments/1802808/1802810.png)
-
+![](images/Price_type_settings_2.png)
 *Рис. 2 Настройка вида цен*
 
   

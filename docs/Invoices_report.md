@@ -1,5 +1,5 @@
 ---
-title: 'Invoices report'
+title: 'Invoiced report'
 ---
 
   
