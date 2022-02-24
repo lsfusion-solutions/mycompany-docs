@@ -2,7 +2,7 @@
 title: 'Manufacturing management'
 ---
 
-Организация работы с производственными заказами позволяет автоматизировать учет использованных материалов и произведенной готовой продукции, быстро ставить задачи на производство и отслеживать их выполнение.
+Working with manufacturing order allows you to automate the accounting of materials used and  goods produced, to quickly set manufacturing tasks and to track their implementation.
 
   
 

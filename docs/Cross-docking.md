@@ -2,7 +2,7 @@
 title: 'Cross-docking'
 ---
 
-Если вы отгружаете купленный у поставщика товар сразу своему покупателю, минуя собственные склады, "провести" товары по складу документально все же необходимо, для корректной работы системы. В MyCompany достаточно установить правильные настройки и оформление прямых поставок будет экономить ваше время также , как прямые поставки снижают ваши затраты.
+If you are shipping goods purchased from a supplier directly to your customer, bypassing your own warehouses, it is still necessary to document the goods in the warehouse in order for the system to work correctly. With MyCompany you just need to have the right settings in place to enable cross-docking.
 
 -   [Cross-docking settings](Cross-docking_settings.md)
 -   [Cross-docking orders](Cross-docking_orders.md)

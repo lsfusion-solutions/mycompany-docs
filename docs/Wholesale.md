@@ -2,7 +2,7 @@
 title: 'Wholesale'
 ---
 
-MyCompany предлагает значительно оптимизировать деятельность вашей компании по осуществлению закупок, продаж, управлению складами и расчетами. Вы можете создавать документы в несколько кликов, вводить данные только один раз, а система, автоматически выстраивая взаимосвязи между процессами, использует их везде, где необходимо.
+MyCompany provides significant optimization of your company's procurement, sales, warehouse management and billing activities. You create documents in a few clicks. Entered once, the data is automatically used by the system wherever necessary.
 
 -   [Purchasing](Purchasing.md)
     -   [Puchase order](Puchase_order.md)

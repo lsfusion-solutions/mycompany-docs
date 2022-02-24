@@ -4,14 +4,14 @@ title: 'Purchase order type'
 
 In **Purchasе** - **Settings**, on the **Order types** tab, you can set up all purchase order types that you use. For example, let us call a regular purchase from a vendor ***Order.***
 
-![](attachments/1802831/13828159.png)  
+![](images/Purchase_order_type_1.png)  
 *Pic.1 List of purchase order types*
 
   
 
 To create an order type, click **Add** and set the appropriate settings.
 
-![](attachments/1802831/13828160.png)  
+![](images/Purchase_order_type_2.png)  
 *Pic.2 Order type settings*
 
   
@@ -26,7 +26,7 @@ To create an order type, click **Add** and set the appropriate settings.
 
 **Price includes taxes** - tick this property, if you specify in the system the price of an item that already includes tax, then the total order value will look like this: , otherwise the total order value will look like this: .
 
-**Show number of places** - if enabled, the following columns will be available in the order ![](attachments/1802831/13828176.png)
+**Show number of seats** - if enabled, the following columns will be available in the order ![](images/number_of_seats.png)
 
 **Receipt type** - select a receipt type from the list. The document Receipt of this type will be created automatically when the order is Confirmed. If you leave this field blank, a receipt will not be created automatically. Read more about receipt types [**here**](Receipt_type.md).
 

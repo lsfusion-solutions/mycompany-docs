@@ -12,28 +12,28 @@ MyCompany - is a free open-source business management system.   We welcome devel
 
 Log in to **GitHub**, go to the MyCompany repository **<https://github.com/lsfusion-solutions/mycompany.git>** under your user, and click **Fork**.
  
-![](attachments/1802748/1802764.png)
+![](images/Development_1.png)
 
 This automatically creates a linked copy of the MyCompany repository in your account.
   
 
-![](attachments/1802748/1802765.png)
+![](images/Development_2.png)
 
 ### 2. Create a new project in Intellij IDEA from the GitHub repository
 
-![](attachments/1802748/1802766.png)
+![](images/Development_3.png)
 
 Choose the MyCompany fork from available on your GitHub account if detected by IntelliJ IDEA
 
-![](attachments/1802748/1802768.png)
+![](images/Development_3-1.png)
 
 Or
 
-![](attachments/1802748/1802767.png)
+![](images/Development_3-2.png)
 
 Insert the address of the repository created in your GitHub account into the connection string
 
-![](attachments/1802748/1802769.png)
+![](images/Development_4.png)
 
   
 :::caution
@@ -43,7 +43,7 @@ Make sure you connect to your repository
 
 Navigate to the primary repository and select from the ISSUES list the task you want to implement, and then examine its statement.
 
-![](attachments/1802748/1802759.png)
+![](images/Development_5.png)
 
   
 
@@ -53,20 +53,20 @@ Select **Branches** from the Git IntelliJ IDEA menu.
 
   
 
-![](attachments/1802748/1802771.png)
+![](images/Development_6.png)
 
   
 :::caution
 If you already have several branches in your repository, you need to create them only from the Local master branch. Otherwise, there will be a lot of files in the changes and the architect who will revise the code will simply reject your changes!
 ::: 
 
-![](attachments/1802748/1802772.png)
+![](images/Development_7.png)
 
 ### 5. Make code changes
 
 Make sure you're in your new branch.
 
-![](attachments/1802748/1802756.png)
+![](images/Development_8.png)
 
 Make your changes to the code.
 
@@ -76,7 +76,7 @@ Once you have made the changes, you should commit them.
 
   
 
-![](attachments/1802748/1802755.png)
+![](images/Development_9.png)
 
   
 
@@ -84,7 +84,7 @@ It is obligatory to add a commit message.
 
   
 
-![](attachments/1802748/1802754.png)
+![](images/Development_10.png)
 
 ### 7. Replace code from parent repository
 
@@ -92,7 +92,7 @@ In the process of your development, the source code of the project (upstream) co
 
   
 
-![](attachments/1802748/1802773.png)
+![](images/Development_12.png)
 
 ### 8. Request to attach changes to the main project
 
@@ -100,7 +100,7 @@ In order to request the attachment of your changes(Commit) to the main project (
 
   
 
-![](attachments/1802748/1802777.png)
+![](images/Development_13.png)
 
   
 
@@ -110,7 +110,7 @@ Base branch: master
 
 If you set other "pull request" parameters, your request will be denied.
 
-![](attachments/1802748/1802752.png)
+![](images/Development_14.png)
 
 ### 9. Check if the request has reached
 
@@ -124,13 +124,13 @@ After the code revision by the technical manager, it will be added to the main p
 
 It should be added via Remotes
 
-![](attachments/1802748/1802751.png)
+![](images/Development_16.png)
 
   
 
 -   There is no access to **upstream**
 
-![](attachments/1802748/1802750.png)
+![](images/Development_15.png)
 
 You need to reassign the **upstream** link to https://github.com:/lsfusion-solutions/mycompany.git
 
@@ -141,3 +141,4 @@ MyCompany is developed on the [lsFusion](https://lsfusion.org/) platform.
 All the necessary documentation on the platform and the lsFusion language can be found [here](https://docs.lsfusion.org/) 
 
   
+ 
