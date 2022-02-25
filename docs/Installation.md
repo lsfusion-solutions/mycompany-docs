@@ -34,7 +34,7 @@ You can use the scripts below.
 
 ### CentOS 8 installation
 
-[install-mycompany-centos8.sh](attachments/1802690/1802691.sh)
+[install-mycompany-centos8.sh](attachments/Installation/1802691.sh)
 
 Download the installation script:
 
@@ -56,7 +56,7 @@ Run script:
 
 ### Ubuntu 18/ Debian 9 installation
 
-[install-mycompany-ubuntu18.sh](attachments/1802690/1802695.sh)
+[install-mycompany-ubuntu18.sh](attachments/Installation/1802695.sh)
 
 Download the installation script:
 
@@ -72,7 +72,7 @@ Run the installation script with the command:
 
 ### Centos 7 installation
 
-[install-mycompany-centos7.sh](attachments/1802690/1802705.sh)
+[install-mycompany-centos7.sh](attachments/Installation/1802705.sh)
 
 Download the installation script:
 
@@ -102,7 +102,7 @@ Download and run the installer [MyCompany-1.0-x64.exe](https://download.lsfusion
 1.  Open MyCompany web interface in your browser **<u><http://your-server-ip:8080></u>**
 2.  In the open window sign in using login admin without password.
 
-![](attachments/1802690/1802693.png)
+![](images/Installation_1.png)
 
   
 
