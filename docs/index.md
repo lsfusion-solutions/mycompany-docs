@@ -5,9 +5,8 @@
 
 ## Available Pages:
 
--   [MyCompany](MyCompany.md)
-    <img src="images/icons/contenttypes/home_page_16.png" width="16" height="16" />
-    -   [Development](Development.md)
+-   [MyCompany](MyCompany.md)    
+    - [Development](Development.md)
 
     <!-- -->
 

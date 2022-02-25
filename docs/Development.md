@@ -104,7 +104,7 @@ In order to request the attachment of your changes(Commit) to the main project (
 
   
 
-Base fork: lsfusion-solutions:mycompany
+Base fork: lsfusion -solutions: mycompany
 
 Base branch: master
 
@@ -140,5 +140,4 @@ MyCompany is developed on the [lsFusion](https://lsfusion.org/) platform.
 
 All the necessary documentation on the platform and the lsFusion language can be found [here](https://docs.lsfusion.org/) 
 
-  
  
