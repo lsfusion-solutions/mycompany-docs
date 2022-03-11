@@ -7,12 +7,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   title: 'MyCompany documentation',
   tagline: 'MyCompany',
   url: 'https://lsfusion-solutions.github.io',
-  baseUrl: '/mycompany-docs/',
+  baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'lsfusion-solutions', // Usually your GitHub org/user name.
-  projectName: 'mycompany-docs', // Usually your repo name.
+  projectName: 'lsfusion-solutions.github.io', // Usually your repo name.
   trailingSlash: true,
  
   presets: [
