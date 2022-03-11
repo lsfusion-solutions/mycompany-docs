@@ -9,6 +9,12 @@ Sales module provides all the necessary tools for products promotion, price poli
 - [Discount settings](Discount_settings.md)
 - [Customer order types](Customer_order_types.md)
 - [Price type settings](Price_type_settings.md) 
+- [Customer orders](Customer_orders.md)
+- [Shipments](Shipments.md)
+- [Customer invoice and Payment collection](Customer_invoice_and_Payment_collection.md)
+- [Cross-docking](Cross-docking.md)
+  - [Cross-docking settings](Cross-docking_settings.md)
+  - [Cross-docking orders](Cross-docking_orders.md)
 
   
 
