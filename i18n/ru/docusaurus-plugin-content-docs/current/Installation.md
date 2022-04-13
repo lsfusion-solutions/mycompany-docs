@@ -10,21 +10,27 @@ title: 'Установка'
 
 **Установить сервер и клиент lsFusion:**
 
-`root@centos7: localectl set-locale LANG=ru_RU.UTF-8`
+```
+root@centos7: localectl set-locale LANG=ru_RU.UTF-8
 
-`root@centos7: source <(curl -s https://download.lsfusion.org/yum/install-lsfusion4)`
+root@centos7: source <(curl -s https://download.lsfusion.org/yum/install-lsfusion4)
+```
 
 **Установить бизнес-логику MyCompany:**
 
-`root@centos7: yum install -y wget`
+```
+root@centos7: yum install -y wget
 
-`root@centos7: wget http://download.lsfusion.org/solutions/mycompany-1.0.jar -O /var/lib/lsfusion/mycompany.jar`
+root@centos7: wget http://download.lsfusion.org/solutions/mycompany-1.0.jar -O /var/lib/lsfusion/mycompany.jar
 
-`root@centos7: echo "logics.topModule = MyCompanyRu" >> /etc/lsfusion4-server/settings.properties`
+root@centos7: echo "logics.topModule = MyCompanyRu" >> /etc/lsfusion4-server/settings.properties
+```
 
 **Перезапустить сервер lsFusion:**
 
-`root@centos7: systemctl stop lsfusion4-serverroot@centos7: systemctl start lsfusion4-server`
+```
+root@centos7: systemctl stop lsfusion4-serverroot@centos7: systemctl start lsfusion4-server
+```
 
 Лог запуска сервера lsFusion можно посмотреть в /var/log/lsfusion4-server/start.log .
 
@@ -32,56 +38,60 @@ title: 'Установка'
 
 ### Установка Centos8
 
-[install-mycompany-centos8.sh](attachments/Installation/1802405.sh)
+[install-mycompany-centos8.sh](https://download.lsfusion.org/solutions/install-mycompany-centos8.sh)
 
 Скачать скрипт установки:
 
-`root@centos8: dnf install -y wget`
+```
+root@centos8: dnf install -y wget
 
-`root@centos8: wget "https://mycompany-docs.lsfusion.org/download/attachments/1802288/install-mycompany-centos8.sh" -P /tmp`
+root@centos8: wget "https://download.lsfusion.org/solutions/install-mycompany-centos8.sh" -P /tmp
+```
 
 Разрешить запуск скачанного скрипта установки:
-
-`root@centos8: chmod +x /tmp/install-mycompany-centos8.sh`
-
+```
+root@centos8: chmod +x /tmp/install-mycompany-centos8.sh
+```
 Выполнить скрипт:
-
-`root@centos8: /tmp/install-mycompany-centos8.sh`
-
+```
+root@centos8: /tmp/install-mycompany-centos8.sh
+```
 ### Установка Ubuntu 18/ Debian 9
 
-[install-mycompany-ubuntu18.sh](attachments/Installation/1802432.sh)
+[install-mycompany-ubuntu18.sh](https://download.lsfusion.org/solutions/install-mycompany-ubuntu18.sh)
 
 Скачать скрипт установки:
-
-`root@ubuntu18: wget "https://mycompany-docs.lsfusion.org/download/attachments/1802288/install-mycompany-ubuntu18.sh" -P /tmp`
-
+```
+root@ubuntu18: wget "https://download.lsfusion.org/solutions/install-mycompany-ubuntu18.sh" -P /tmp
+```
 Разрешить запуск скачанного файла командой
-
-`root@ubuntu18: chmod +x /tmp/install-mycompany-ubuntu18.sh`
-
+```
+root@ubuntu18: chmod +x /tmp/install-mycompany-ubuntu18.sh
+```
 Запустить скрипт установки командой:
-
-`root@ubuntu18: /tmp/install-mycompany-ubuntu18.sh`
-
+```
+root@ubuntu18: /tmp/install-mycompany-ubuntu18.sh
+```
 ### Установка Centos 7
 
-[install-mycompany-centos7.sh](attachments/Installation/1802656.sh)
+[install-mycompany-centos7.sh](https://download.lsfusion.org/solutions/install-mycompany-centos7.sh)
 
 Скачать скрипт установки:
 
-`root@centos7: yum install -y wget`
+```
+root@centos7: yum install -y wget
 
-`root@centos7: wget "https://mycompany-docs.lsfusion.org/download/attachments/1802288/install-mycompany-centos7.sh" -P /tmp`
+root@centos7: wget "https://download.lsfusion.org/solutions/install-mycompany-centos7.sh" -P /tmp
+``` 
 
 Разрешить запуск скачанного файла командой
-
-`root@centos7: chmod +x /tmp/install-mycompany-centos7.sh`
-
+```
+root@centos7: chmod +x /tmp/install-mycompany-centos7.sh
+```
 Запустить скрипт установки командой:
-
-`root@centos7:/tmp/install-mycompany-centos7.sh`
-
+```
+root@centos7:/tmp/install-mycompany-centos7.sh
+```
 ### Установка Windows
 
 Скачать установщик и запустить [MyCompany-1.0-x64.exe](https://download.lsfusion.org/solutions/MyCompany-1.0-x64.exe) или [MyCompany-1.0.exe](https://download.lsfusion.org/solutions/MyCompany-1.0.exe)
