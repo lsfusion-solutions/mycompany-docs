@@ -6,7 +6,7 @@ title: 'Установка'
 
 На нем должно быть минимум 2 гигабайта оперативной памяти (желательно 4+ГБ) и должны быть открыты порты 8080 для работы веб-клиента и 7652 для работы десктоп-клиента.
 
-### Установка RHEL 8+ / CentOS 8+ / Fedora 35+
+### RHEL 8+ / CentOS 8+ / Fedora 35+
 ```
 source <(curl -s https://download.lsfusion.org/solutions/install-mycompany-centos8-ru.sh)
 ```
@@ -16,7 +16,7 @@ source <(curl -s https://download.lsfusion.org/solutions/install-mycompany-cento
 source <(curl -s https://download.lsfusion.org/solutions/install-mycompany-centos7-ru.sh)
 ```
 
-### Установка Ubuntu 18+ / Debian 9+
+### Ubuntu 18+ / Debian 9+
 ```
 source <(curl -s https://download.lsfusion.org/solutions/install-mycompany-ubuntu18-ru.sh)
 ```
@@ -25,7 +25,7 @@ source <(curl -s https://download.lsfusion.org/solutions/install-mycompany-ubunt
 
 Чтобы увеличить количество памяти, выделяемую приложению, нужно отредактировать параметр -Xmx в файлах /etc/lsfusion5-server/lsfusion.conf и /etc/lsfusion5-client/lsfusion.conf. После этого необходимо перезапустить службы.
 
-### Установка Windows
+### Windows
 
 Скачать установщик и запустить [MyCompany-1.0-x64.exe](https://download.lsfusion.org/solutions/MyCompany-1.0-x64.exe) или [MyCompany-1.0.exe](https://download.lsfusion.org/solutions/MyCompany-1.0.exe)
 
