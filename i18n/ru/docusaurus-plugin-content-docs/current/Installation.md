@@ -7,17 +7,23 @@ title: 'Установка'
 На нем должно быть минимум 2 гигабайта оперативной памяти (желательно 4+ГБ) и должны быть открыты порты 8080 для работы веб-клиента и 7652 для работы десктоп-клиента.
 
 ### Установка RHEL 8+ / CentOS 8+ / Fedora 35+
+```
 source <(curl -s https://download.lsfusion.org/solutions/install-mycompany-centos8-ru.sh)
+```
 
 ### RHEL 7 / CentOS 7
+```
 source <(curl -s https://download.lsfusion.org/solutions/install-mycompany-centos7-ru.sh)
+```
 
 ### Установка Ubuntu 18+ / Debian 9+
+```
 source <(curl -s https://download.lsfusion.org/solutions/install-mycompany-ubuntu18-ru.sh)
+```
 
 Лог запуска сервера lsFusion можно посмотреть в /var/log/lsfusion5-server/start.log .
 
-Чтобы увеличить количество памяти, выделяемую приложению, нужно отредактировать параметр -Xmx в файлах /etc/lsfusion5-server/lsfusion.conf и /etc/lsfusion5-client/lsfusion.conf.
+Чтобы увеличить количество памяти, выделяемую приложению, нужно отредактировать параметр -Xmx в файлах /etc/lsfusion5-server/lsfusion.conf и /etc/lsfusion5-client/lsfusion.conf. После этого необходимо перезапустить службы.
 
 ### Установка Windows
 
