@@ -4,7 +4,7 @@ title: 'Installation'
 
 To install the solution, you will need a server running a Linux or Windows operating system that is connected to the Internet.
 
-It must have a minimum of 2 gigabytes of RAM (recommended 4+GB) and open ports 8080 for web client operation and 7652 for desktop client operation.
+It must have a minimum of 4 gigabytes of RAM and open ports 8080 for web client operation and 7652 for desktop client operation.
 
 ### RHEL 8+ / CentOS 8+ / Fedora 35+
 ```
