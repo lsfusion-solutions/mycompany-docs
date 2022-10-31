@@ -52,7 +52,7 @@ As a password for PostgreSQL preferably use 11111.
 2. Wait for IntelliJ IDEA to create the project and download all dependencies using Maven (may take a few minutes).
 3. Check that Java Development Kit has been successfully found. To do this, go to File / Project Structure form and check that Project / SDK field is set.
 4. Create the configuration for running the lsFusion server. To do this, in Run / Edit Configurations form you need to click **+**, and then select lsFusion Server. Verify that Working Directory points to the folder where pom.xml is located.
-5. Run server through Run / Run <configuration name> menu item.
+5. Run server through Run / Run <configuration name\> menu item.
 
 #### Building a jar file to run on the server
 
