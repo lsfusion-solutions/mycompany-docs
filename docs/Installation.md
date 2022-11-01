@@ -27,7 +27,10 @@ To increase the amount of memory allocated to the application, you need to edit 
 
 ### Windows installation
 
-Download and run the installer [MyCompany-1.0-x64.exe](https://download.lsfusion.org/solutions/MyCompany-1.0-x64.exe) or [MyCompany-1.0.exe](https://download.lsfusion.org/solutions/MyCompany-1.0.exe)
+1. Download and run lsFusion platform installer (execution) : https://docs.lsfusion.org/ru/next/Execution_auto/.
+2. Download the assembled jar file with MyCompany logic from https://download.lsfusion.org/solutions/mycompany-1.0.jar.
+3. Put the downloaded jar file to the directory C:\Program Files\lsFusion 5\Server\lib.
+4. Restart lsFusion 5 Server service.
 
 ### Log in to MyCompany
 
@@ -42,7 +45,7 @@ Since the project uses Maven, you can use the following algorithm to configure t
 
 #### Setting up the environment and client part
 
-Install lsFusion development platform, except for the server part (Server), as described at https://docs.lsfusion.org/ru/next/Development_auto/.
+Install lsFusion development platform, except for the server part (Server), as described at https://docs.lsfusion.org/next/Development_auto/.
 
 As a password for PostgreSQL preferably use 11111.
 

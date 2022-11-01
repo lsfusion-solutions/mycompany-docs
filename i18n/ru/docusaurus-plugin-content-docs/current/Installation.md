@@ -27,7 +27,10 @@ source <(curl -s https://download.lsfusion.org/solutions/install-mycompany-ubunt
 
 ### Windows
 
-Скачать установщик и запустить [MyCompany-1.0-x64.exe](https://download.lsfusion.org/solutions/MyCompany-1.0-x64.exe) или [MyCompany-1.0.exe](https://download.lsfusion.org/solutions/MyCompany-1.0.exe)
+1. Скачать и запустить установщик платформы lsFusion для выполнения : https://docs.lsfusion.org/ru/next/Execution_auto/.
+2. Скачать собранный jar-файл с логикой MyCompany по ссылке https://download.lsfusion.org/solutions/mycompany-1.0.jar.
+3. Поместить скачанный jar-файл в директорию C:\Program Files\lsFusion 5\Server\lib.
+4. Перезапустить службу lsFusion 5 Server.
 
 ### Войти в MyCompany
 
