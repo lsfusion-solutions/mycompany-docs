@@ -66,4 +66,4 @@ After making changes to the application source code to build the final jar file,
 3. From Available Elements list transfer the 'mycompany' compile output element to the jar file. Then press OK.
 4. Then select Build / Build artifacts in the menu item. Then select Build.
 
-With the artifact you can replace the old file, which is on the server in the folder /var/lib/lsfusion, and restart the service on the server.
+With the artifact you can replace the old file, which is on the server in the folder /var/lib/lsfusion or C:\Program Files\lsFusion 5\Server\lib, and restart the service on the server.

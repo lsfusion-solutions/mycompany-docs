@@ -66,4 +66,4 @@ source <(curl -s https://download.lsfusion.org/solutions/install-mycompany-ubunt
 3. Из списка Available Elements перенести в jar файл элемент 'mycompany' compile output. Затем нажать ОК.
 4. Затем в пункте меню выбрать Build / Build artifacts. Дальше выбрать пункт Build.
 
-Собранным файлом можно заместить старый файл, находящийся на сервере в папке /var/lib/lsfusion, и перезапустить службу на сервере.
+Собранным файлом можно заместить старый файл, находящийся на сервере в папке /var/lib/lsfusion или C:\Program Files\lsFusion 5\Server\lib, и перезапустить службу на сервере.
