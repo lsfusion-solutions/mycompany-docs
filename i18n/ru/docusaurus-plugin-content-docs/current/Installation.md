@@ -30,7 +30,8 @@ source <(curl -s https://download.lsfusion.org/solutions/install-mycompany-ubunt
 1. Скачать и запустить установщик платформы lsFusion для выполнения : https://docs.lsfusion.org/ru/next/Execution_auto/.
 2. Скачать собранный jar-файл с логикой MyCompany по ссылке https://download.lsfusion.org/solutions/mycompany-1.0.jar.
 3. Поместить скачанный jar-файл в директорию C:\Program Files\lsFusion 5\Server\lib.
-4. Перезапустить службу lsFusion 5 Server.
+4. Добавить в файл C:\Program Files\lsFusion 5\Server\conf\settings.properties строку `logics.topModule = MyCompanyRu` .
+5. Перезапустить службу lsFusion 5 Server.
 
 ### Войти в MyCompany
 
@@ -55,7 +56,8 @@ source <(curl -s https://download.lsfusion.org/solutions/install-mycompany-ubunt
 2. Дождаться пока IntelliJ IDEA создаст проект и скачает при помощи Maven все зависимости (может занять несколько минут).
 3. Проверить, что был успешно найден Java Development Kit. Для этого нужно зайти в форму File / Project Structure и проверить, что установлено поле Project / SDK. 
 4. Создать конфигурацию для запуска сервера lsFusion. Для этого нужно в форме Run / Edit Configurations нажать кнопку **+**, а затем выбрать lsFusion Server. Проверить, что Working Directory указывает на папку, в которой находится pom.xml.
-5. Запустить сервер через пункт меню Run / Run <имя конфигурации>. 
+5. Добавить в файл settings.properties строку `logics.topModule = MyCompanyRu` . 
+6. Запустить сервер через пункт меню Run / Run <имя конфигурации>. 
 
 #### Сборка jar-файла для выполнения на сервере
 
