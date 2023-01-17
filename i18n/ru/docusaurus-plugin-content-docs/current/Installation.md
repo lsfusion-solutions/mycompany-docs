@@ -27,7 +27,7 @@ source <(curl -s https://download.lsfusion.org/solutions/install-mycompany-ubunt
 
 ### Windows
 
-1. Скачать и запустить установщик платформы lsFusion для выполнения : https://docs.lsfusion.org/ru/next/Execution_auto/.
+1. Скачать и запустить установщик платформы lsFusion для выполнения : https://docs.lsfusion.org/ru/Execution_auto/.
 2. Скачать собранный jar-файл с логикой MyCompany по ссылке https://download.lsfusion.org/solutions/mycompany-1.0.jar.
 3. Поместить скачанный jar-файл в директорию C:\Program Files\lsFusion 5\Server\lib.
 4. Добавить в файл C:\Program Files\lsFusion 5\Server\conf\settings.properties строку `logics.topModule = MyCompanyRu` .
@@ -46,7 +46,7 @@ source <(curl -s https://download.lsfusion.org/solutions/install-mycompany-ubunt
 
 #### Настройка окружения и клиентской части
 
-Установить платформу lsFusion для разработки за исключением серверной части (Server), как указано по ссылке https://docs.lsfusion.org/ru/next/Development_auto/.
+Установить платформу lsFusion для разработки за исключением серверной части (Server), как указано по ссылке https://docs.lsfusion.org/ru/Development_auto/.
 
 В качестве пароля для PostgreSQL желательно использовать 11111. 
 
