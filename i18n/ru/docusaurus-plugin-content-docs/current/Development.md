@@ -127,8 +127,8 @@ Base branch: master
 
 ### Изучить язык lsFusion и установить все необходимые инструменты разработчика
 
-MyCompany разработано на платформе [lsFusion](https://ru.lsfusion.org/).
+MyCompany разработано на платформе [lsFusion](https://lsfusion.org/ru).
 
-Необходимую документацию по платформе и языку lsFusion можно найти [тут](https://ru-documentation.lsfusion.org/)
+Необходимую документацию по платформе и языку lsFusion можно найти [тут](https://docs.lsfusion.org/ru)
 
   
