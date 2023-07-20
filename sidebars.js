@@ -16,8 +16,7 @@ module.exports = {
       link: {type: 'doc', id: 'Administration'},
       items: [
         'User_roles', 
-        'Role_permissions', 
-        'Users', 
+        'Role_permissions',
       ]
     },
     'Data_upload', 
