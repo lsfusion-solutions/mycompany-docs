@@ -89,12 +89,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://ru.stackoverflow.com/questions/tagged/lsfusion',
+                label: 'Telegram',
+                href: 'https://t.me/lsfusion_official',
               },
               {
                 label: 'Slack',
                 href: 'https://slack.lsfusion.org',
+              },
+              {
+                label: 'Stack Overflow',
+                href: 'https://ru.stackoverflow.com/questions/tagged/lsfusion',
               },
             ],
           },
