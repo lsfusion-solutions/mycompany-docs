@@ -23,7 +23,19 @@ source <(curl -s https://download.lsfusion.org/solutions/install-mycompany-ubunt
 
 Лог запуска сервера lsFusion можно посмотреть в /var/log/lsfusion5-server/start.log .
 
-Чтобы увеличить количество памяти, выделяемую приложению, нужно отредактировать параметр -Xmx в файлах /etc/lsfusion5-server/lsfusion.conf и /etc/lsfusion5-client/lsfusion.conf. После этого необходимо перезапустить службы.
+Чтобы увеличить количество памяти, выделяемую приложению, нужно отредактировать параметр -Xmx в файлах /etc/lsfusion5-server/lsfusion.conf и /etc/lsfusion5-client/lsfusion.conf. После этого необходимо перезапустить службы :
+
+Серверная часть :
+```
+systemctl stop lsfusion5-server
+systemctl start lsfusion5-server
+```
+Клиентская часть :
+```
+systemctl stop lsfusion5-client
+systemctl start lsfusion5-client
+```
+
 
 ### Windows
 
@@ -69,3 +81,22 @@ source <(curl -s https://download.lsfusion.org/solutions/install-mycompany-ubunt
 4. Затем в пункте меню выбрать Build / Build artifacts. Дальше выбрать пункт Build.
 
 Собранным файлом можно заместить старый файл, находящийся на сервере в папке /var/lib/lsfusion или C:\Program Files\lsFusion 5\Server\lib, и перезапустить службу на сервере.
+
+### Добавление новых модулей на сервере
+
+При необходимости подключать новые модули можно не при помощи jar-файлов, а просто добавляя новые файлы в classpath. Последовательность действий в этом случае следующая :
+
+1. Создаем, например, новый модуль MyCompanyCustom.lsf, который зависит от модуля MyCompanyRu, и помещаем его в директорий /var/lib/lsfusion.
+2. Изменяем верхний модуль приложения. Для этого в файле /etc/lsfusion5-server/settings.properties меняем (или добавляем) параметр  `logics.topModule = MyCompanyCustom` .
+3. Перезапускаем службу сервера (как описано выше).
+4. Если нужно подключить дополнительные модули, то помещаем их также в папку /var/lib/lsfusion, и добавляем их в REQUIRE модуля MyCompanyCustom.
+
+Пример модуля MyCompanyCustom :
+
+```
+MODULE MyCompanyCustom;
+
+REQUIRE MyCompanyRu;
+
+<новый код>
+```
