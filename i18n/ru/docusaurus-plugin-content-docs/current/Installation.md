@@ -39,15 +39,15 @@ systemctl start lsfusion5-client
 
 ### Windows
 
-1. Скачать и запустить установщик платформы lsFusion для выполнения : https://docs.lsfusion.org/ru/Execution_auto/.
+1. Скачать и запустить установщик платформы lsFusion для выполнения: https://docs.lsfusion.org/ru/Execution_auto/.
 2. Скачать собранный jar-файл с логикой MyCompany по ссылке https://download.lsfusion.org/solutions/mycompany-1.0.jar.
 3. Поместить скачанный jar-файл в директорию C:\Program Files\lsFusion 5\Server\lib.
-4. Добавить в файл C:\Program Files\lsFusion 5\Server\conf\settings.properties строку `logics.topModule = MyCompanyRu` .
+4. Добавить в файл C:\Program Files\lsFusion 5\Server\conf\settings.properties строку `logics.topModule = MyCompanyRu`.
 5. Перезапустить службу lsFusion 5 Server.
 
 ### Войти в MyCompany
 
-1.  Открыть в браузере web-интерфейс MyCompany <http://ip-вашего-сервера:8080>
+1.  Открыть в браузере web-интерфейс MyCompany **[http://ip-вашего-сервера:8080](http://ip-вашего-сервера:8080)**
 2.  В открывшемся окне авторизоваться под пользователем **admin** без пароля
 
 ![](images/Installation_1.png)
@@ -69,7 +69,7 @@ systemctl start lsfusion5-client
 3. Проверить, что был успешно найден Java Development Kit. Для этого нужно зайти в форму File / Project Structure и проверить, что установлено поле Project / SDK. 
 4. Создать конфигурацию для запуска сервера lsFusion. Для этого нужно в форме Run / Edit Configurations нажать кнопку **+**, а затем выбрать lsFusion Server. Проверить, что Working Directory указывает на папку, в которой находится pom.xml.
 5. Добавить в файл settings.properties строку `logics.topModule = MyCompanyRu` . 
-6. Запустить сервер через пункт меню Run / Run <имя конфигурации>. 
+6. Запустить сервер через пункт меню Run / Run `<имя конфигурации>`. 
 
 #### Сборка jar-файла для выполнения на сервере
 

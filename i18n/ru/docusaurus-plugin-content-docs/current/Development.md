@@ -8,7 +8,7 @@ MyCompany - это бесплатная открытая система упра
 
 ### 1. Создать ответвление репозитория MyCompany для своей учетной записи GitHub
 
-Необходимо авторизоваться на **GitHub**, перейти в репозиторий MyCompany **<https://github.com/lsfusion-solutions/mycompany.git>** под своим пользователем и нажать кнопку **Fork**.
+Необходимо авторизоваться на **GitHub**, перейти в репозиторий MyCompany **https://github.com/lsfusion-solutions/mycompany.git** под своим пользователем и нажать кнопку **Fork**.
 
   
 ![](images/Development_1.png)
@@ -31,7 +31,7 @@ MyCompany - это бесплатная открытая система упра
 
 ![](images/Development_4.png)
 
-:::caution  
+:::warning  
 
 Убедитесь, что подключаетесь к своему репозиторию
 
@@ -55,7 +55,7 @@ MyCompany - это бесплатная открытая система упра
 
 ![](images/Development_6.png)
 
-:::caution 
+:::warning 
 
 Если в Вашем репозитории уже есть несколько веток, то их нужно создавать только от ветки Local master. Иначе в изменениях будет очень много файлов и архитектор, который будет проводить ревизию кода, просто отклонит ваши изменения!
 
@@ -83,18 +83,18 @@ MyCompany - это бесплатная открытая система упра
 
 ### 7. Сделать замену кода из родительского репозитория
 
- В процессе Вашей разработки исходные коды проекта (upstream) могли быть изменены другими участниками и Ваш "commit" может быть сильно увеличен за счет чужих изменений, поэтому перед отправкой изменений обязательно надо сделать замену кода из родительского репозитория **Rebase my GitHub Fork** , выбрать upstream: <https://github.com/lsfusion-solutions/mycompany.git> и сделать "push" Ваших изменений.
+ В процессе Вашей разработки исходные коды проекта (upstream) могли быть изменены другими участниками и Ваш "commit" может быть сильно увеличен за счет чужих изменений, поэтому перед отправкой изменений обязательно надо сделать замену кода из родительского репозитория **Rebase my GitHub Fork** , выбрать upstream: https://github.com/lsfusion-solutions/mycompany.git и сделать "push" Ваших изменений.
 
 ![](images/Development_12.png)
 
 ### 8. Запросить присоединить изменения к основному проекту
 
-Для того, чтобы запросить присоединение Ваших изменений (Commit) к основному проекту (Pull Request) необходимо перейти в **VCS** - **Git**, выбрать **Create Pull Request**, выбрать удаленный репозиторий upstream: <https://github.com/lsfusion-solutions/mycompany.git>
+Для того, чтобы запросить присоединение Ваших изменений (Commit) к основному проекту (Pull Request) необходимо перейти в **VCS** - **Git**, выбрать **Create Pull Request**, выбрать удаленный репозиторий upstream: https://github.com/lsfusion-solutions/mycompany.git
 
 ![](images/Development_13.png)
 
-:::caution
-Base fork: lsfusion-solutions:mycompany
+:::warning
+Base fork: lsfusion-solutions: mycompany
 
 Base branch: master
 :::
@@ -105,7 +105,7 @@ Base branch: master
 
 ### 9. Проверить, дошел ли запрос
 
-Чтобы проверить, дошел ли Ваш запрос, необходимо зайти в <https://github.com/lsfusion-solutions/mycompany/pulls>, и проверить, есть ли он там.
+Чтобы проверить, дошел ли Ваш запрос, необходимо зайти в https://github.com/lsfusion-solutions/mycompany/pulls, и проверить, есть ли он там.
 
 После ревизии кода техническим руководителем он будет добавлен в основной проект, или отклонен, или запрошена доработка.
 

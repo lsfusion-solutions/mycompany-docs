@@ -10,7 +10,7 @@ MyCompany - is a free open-source business management system.   We welcome devel
 
 ### 1. Create a fork of the MyCompany repository for your GitHub account
 
-Log in to **GitHub**, go to the MyCompany repository **<https://github.com/lsfusion-solutions/mycompany.git>** under your user, and click **Fork**.
+Log in to **GitHub**, go to the MyCompany repository **https://github.com/lsfusion-solutions/mycompany.git** under your user, and click **Fork**.
  
 ![](images/Development_1.png)
 
@@ -36,7 +36,7 @@ Insert the address of the repository created in your GitHub account into the con
 ![](images/Development_4.png)
 
   
-:::caution
+:::warning
 Make sure you connect to your repository
 :::
 ### 3. Select a task to implement on the primary repository
@@ -56,7 +56,7 @@ Select **Branches** from the Git IntelliJ IDEA menu.
 ![](images/Development_6.png)
 
   
-:::caution
+:::warning
 If you already have several branches in your repository, you need to create them only from the Local master branch. Otherwise, there will be a lot of files in the changes and the architect who will revise the code will simply reject your changes!
 ::: 
 
@@ -88,7 +88,7 @@ It is obligatory to add a commit message.
 
 ### 7. Replace code from parent repository
 
-In the process of your development, the source code of the project (upstream) could be changed by other participants and your "commit" can be greatly increased due to other people's changes, so before sending the changes, it is necessary to replace the code from the parent repository **Rebase my GitHub Fork**, choose upstream: <https://github.com/lsfusion-solutions/mycompany.git>  and make "push" of your changes.
+In the process of your development, the source code of the project (upstream) could be changed by other participants and your "commit" can be greatly increased due to other people's changes, so before sending the changes, it is necessary to replace the code from the parent repository **Rebase my GitHub Fork**, choose upstream: https://github.com/lsfusion-solutions/mycompany.git  and make "push" of your changes.
 
   
 
@@ -96,7 +96,7 @@ In the process of your development, the source code of the project (upstream) co
 
 ### 8. Request to attach changes to the main project
 
-In order to request the attachment of your changes(Commit) to the main project (Pull Request), you must go to (VCS)**Git** - **GitHub**, select **Create Pull Request**, select the remote repository **upstream**: <https://github.com/lsfusion-solutions/mycompany.git>
+In order to request the attachment of your changes(Commit) to the main project (Pull Request), you must go to (VCS)**Git** - **GitHub**, select **Create Pull Request**, select the remote repository **upstream**: https://github.com/lsfusion-solutions/mycompany.git
 
   
 

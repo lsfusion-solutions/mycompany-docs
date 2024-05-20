@@ -1,8 +1,8 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
+
+import {themes as prismThemes} from 'prism-react-renderer';
+
 (module.exports = {
   title: 'MyCompany documentation',
   tagline: 'MyCompany',
@@ -10,6 +10,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
+  onBrokenAnchors: 'ignore', // Should be updated to 'warn' in the future due to current functionality issues
   favicon: 'img/favicon.ico',
   organizationName: 'lsfusion-solutions', // Usually your GitHub org/user name.
   projectName: 'lsfusion-solutions.github.io', // Usually your repo name.
@@ -119,10 +120,19 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         copyright: `Copyright © ${new Date().getFullYear()} lsFusion Foundation. Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: prismThemes.nightOwlLight,
+        darkTheme: prismThemes.vsDark,      
+        additionalLanguages: ['bash', 'css', 'java', 'json'],
       },
     }),
+  markdown: {
+    format: 'mdx',
+    mdx1Compat: {
+      comments: true,
+      admonitions: true,
+      headingIds: true
+    }
+  },  
   i18n: {
     defaultLocale: 'ru',
     locales: ['en', 'ru'],
