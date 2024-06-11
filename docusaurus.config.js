@@ -95,7 +95,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
               },
               {
                 label: 'Slack',
-                href: 'https://slack.lsfusion.org',
+                href: 'https://join.slack.com/t/lsfusion/shared_invite/zt-1itj7vlmf-9aBIP__nj9iMJglDaecqXg',
               },
               {
                 label: 'Stack Overflow',
