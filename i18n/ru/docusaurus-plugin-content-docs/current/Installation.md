@@ -11,11 +11,6 @@ title: 'Установка'
 source <(curl -s https://download.lsfusion.org/solutions/install-mycompany-centos8-ru.sh)
 ```
 
-### RHEL 7 / CentOS 7
-```
-source <(curl -s https://download.lsfusion.org/solutions/install-mycompany-centos7-ru.sh)
-```
-
 ### Ubuntu 18+ / Debian 9+
 ```
 source <(curl -s https://download.lsfusion.org/solutions/install-mycompany-ubuntu18-ru.sh)
