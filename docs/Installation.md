@@ -11,11 +11,6 @@ It must have a minimum of 4 gigabytes of RAM and open ports 8080 for web client 
 source <(curl -s https://download.lsfusion.org/solutions/install-mycompany-centos8.sh)
 ```
 
-### RHEL 7 / CentOS 7
-```
-source <(curl -s https://download.lsfusion.org/solutions/install-mycompany-centos7.sh)
-```
-
 ### Ubuntu 18+ / Debian 9+
 ```
 source <(curl -s https://download.lsfusion.org/solutions/install-mycompany-ubuntu18.sh)
