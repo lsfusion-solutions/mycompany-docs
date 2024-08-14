@@ -12,11 +12,11 @@
     "description": "The label for category Installation in sidebar docs"
   },
   "sidebar.docs.category.Administration": {
-    "message": "АДМИНИСТРИРОВАНИЕ",
+    "message": "Администрирование",
     "description": "The label for category Administration in sidebar docs"
   },
   "sidebar.docs.category.General settings and master data": {
-    "message": "ОБЩАЯ НАСТРОЙКА И СПРАВОЧНИКИ",
+    "message": "Общая настройка и справочники",
     "description": "The label for category General settings and master data in sidebar docs"
   },
   "sidebar.docs.category.Sales": {
@@ -72,7 +72,7 @@
     "description": "The label for category Cross-docking in sidebar docs"
   },
   "sidebar.docs.category.Retail": {
-    "message": "РОЗНИЧНАЯ ТОРГОВЛЯ",
+    "message": "Розничная торговля",
     "description": "The label for category Retail in sidebar docs"
   },
   "sidebar.docs.category.General settings": {
@@ -84,7 +84,7 @@
     "description": "The label for category POS in sidebar docs"
   },
   "sidebar.docs.category.Manufacturing management": {
-    "message": "ПРОИЗВОДСТВО ПО ЗАКАЗУ",
+    "message": "Производство по заказу",
     "description": "The label for category Manufacturing management in sidebar docs"
   },
   "sidebar.docs.category.Bills of Materials": {
@@ -92,7 +92,7 @@
     "description": "The label for category Bills of Materials in sidebar docs"
   },
   "sidebar.docs.category.Services": {
-    "message": "ОКАЗАНИЕ УСЛУГ",
+    "message": "Оказание услуг",
     "description": "The label for category Services in sidebar docs"
   }
 }
