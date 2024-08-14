@@ -52,7 +52,7 @@
     "description": "The label for category Manufacturing in sidebar docs"
   },
   "sidebar.docs.category.Wholesale": {
-    "message": "ОПТОВАЯ ТОРГОВЛЯ",
+    "message": "Оптовая торговля",
     "description": "The label for category Wholesale in sidebar docs"
   },
   "sidebar.docs.category.Purchasing": {
