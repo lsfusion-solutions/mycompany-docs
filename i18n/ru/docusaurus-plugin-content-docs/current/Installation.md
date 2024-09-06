@@ -35,7 +35,7 @@ systemctl start lsfusion5-client
 ### Windows
 
 1. Скачать и запустить установщик платформы lsFusion для выполнения: https://docs.lsfusion.org/ru/Execution_auto/.
-2. Скачать собранный jar-файл с логикой MyCompany по ссылке https://download.lsfusion.org/solutions/mycompany-1.0.jar.
+2. Скачать собранный jar-файл с логикой MyCompany по ссылке https://download.lsfusion.org/solutions/mycompany-5.0.jar.
 3. Поместить скачанный jar-файл в директорию C:\Program Files\lsFusion 5\Server\lib.
 4. Добавить в файл C:\Program Files\lsFusion 5\Server\conf\settings.properties строку `logics.topModule = MyCompanyRu`.
 5. Перезапустить службу lsFusion 5 Server.
