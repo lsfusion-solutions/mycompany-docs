@@ -32,6 +32,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
         },
         blog: {
           showReadingTime: true,
+          onInlineAuthors: 'ignore',
+          onUntruncatedBlogPosts: 'ignore',
           // Please change this to your repo.
           editUrl:
             'https://github.com/lsfusion-solutions/mycompany-docs/edit/main/website/blog/',
