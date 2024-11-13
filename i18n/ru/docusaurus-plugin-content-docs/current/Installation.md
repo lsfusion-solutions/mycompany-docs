@@ -16,29 +16,29 @@ source <(curl -s https://download.lsfusion.org/solutions/install-mycompany-cento
 source <(curl -s https://download.lsfusion.org/solutions/install-mycompany-ubuntu18-ru.sh)
 ```
 
-Лог запуска сервера lsFusion можно посмотреть в /var/log/lsfusion5-server/start.log .
+Лог запуска сервера lsFusion можно посмотреть в /var/log/lsfusion6-server/start.log .
 
-Чтобы увеличить количество памяти, выделяемую приложению, нужно отредактировать параметр -Xmx в файлах /etc/lsfusion5-server/lsfusion.conf и /etc/lsfusion5-client/lsfusion.conf. После этого необходимо перезапустить службы :
+Чтобы увеличить количество памяти, выделяемую приложению, нужно отредактировать параметр -Xmx в файлах /etc/lsfusion6-server/lsfusion.conf и /etc/lsfusion6-client/lsfusion.conf. После этого необходимо перезапустить службы :
 
 Серверная часть :
 ```
-systemctl stop lsfusion5-server
-systemctl start lsfusion5-server
+systemctl stop lsfusion6-server
+systemctl start lsfusion6-server
 ```
 Клиентская часть :
 ```
-systemctl stop lsfusion5-client
-systemctl start lsfusion5-client
+systemctl stop lsfusion6-client
+systemctl start lsfusion6-client
 ```
 
 
 ### Windows
 
 1. Скачать и запустить установщик платформы lsFusion для выполнения: https://docs.lsfusion.org/ru/Execution_auto/.
-2. Скачать собранный jar-файл с логикой MyCompany по ссылке https://download.lsfusion.org/solutions/mycompany-5.0.jar.
-3. Поместить скачанный jar-файл в директорию C:\Program Files\lsFusion 5\Server\lib.
-4. Добавить в файл C:\Program Files\lsFusion 5\Server\conf\settings.properties строку `logics.topModule = MyCompanyRu`.
-5. Перезапустить службу lsFusion 5 Server.
+2. Скачать собранный jar-файл с логикой MyCompany по ссылке https://download.lsfusion.org/solutions/mycompany-6.0.jar.
+3. Поместить скачанный jar-файл в директорию C:\Program Files\lsFusion 6\Server\lib.
+4. Добавить в файл C:\Program Files\lsFusion 6\Server\conf\settings.properties строку `logics.topModule = MyCompanyRu`.
+5. Перезапустить службу lsFusion 6 Server.
 
 ### Войти в MyCompany
 
@@ -75,14 +75,14 @@ systemctl start lsfusion5-client
 3. Из списка Available Elements перенести в jar файл элемент 'mycompany' compile output. Затем нажать ОК.
 4. Затем в пункте меню выбрать Build / Build artifacts. Дальше выбрать пункт Build.
 
-Собранным файлом можно заместить старый файл, находящийся на сервере в папке /var/lib/lsfusion или C:\Program Files\lsFusion 5\Server\lib, и перезапустить службу на сервере.
+Собранным файлом можно заместить старый файл, находящийся на сервере в папке /var/lib/lsfusion или C:\Program Files\lsFusion 6\Server\lib, и перезапустить службу на сервере.
 
 ### Добавление новых модулей на сервере
 
 При необходимости подключать новые модули можно не при помощи jar-файлов, а просто добавляя новые файлы в classpath. Последовательность действий в этом случае следующая :
 
 1. Создаем, например, новый модуль MyCompanyCustom.lsf, который зависит от модуля MyCompanyRu, и помещаем его в директорий /var/lib/lsfusion.
-2. Изменяем верхний модуль приложения. Для этого в файле /etc/lsfusion5-server/settings.properties меняем (или добавляем) параметр  `logics.topModule = MyCompanyCustom` .
+2. Изменяем верхний модуль приложения. Для этого в файле /etc/lsfusion6-server/settings.properties меняем (или добавляем) параметр  `logics.topModule = MyCompanyCustom` .
 3. Перезапускаем службу сервера (как описано выше).
 4. Если нужно подключить дополнительные модули, то помещаем их также в папку /var/lib/lsfusion, и добавляем их в REQUIRE модуля MyCompanyCustom.
 
