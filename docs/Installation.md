@@ -16,16 +16,16 @@ source <(curl -s https://download.lsfusion.org/solutions/install-mycompany-cento
 source <(curl -s https://download.lsfusion.org/solutions/install-mycompany-ubuntu18.sh)
 ```
 
-You can see the lsFusion server startup log in /var/log/lsfusion5-server/start.log .
+You can see the lsFusion server startup log in /var/log/lsfusion6-server/start.log .
 
-To increase the amount of memory allocated to the application, you need to edit the -Xmx parameter in /etc/lsfusion5-server/lsfusion.conf and /etc/lsfusion5-client/lsfusion.conf. You must then restart the services.
+To increase the amount of memory allocated to the application, you need to edit the -Xmx parameter in /etc/lsfusion6-server/lsfusion.conf and /etc/lsfusion6-client/lsfusion.conf. You must then restart the services.
 
 ### Windows installation
 
 1. Download and run lsFusion platform installer (execution) : https://docs.lsfusion.org/Execution_auto/.
-2. Download the assembled jar file with MyCompany logic from https://download.lsfusion.org/solutions/mycompany-5.0.jar.
-3. Put the downloaded jar file to the directory C:\Program Files\lsFusion 5\Server\lib.
-4. Restart lsFusion 5 Server service.
+2. Download the assembled jar file with MyCompany logic from https://download.lsfusion.org/solutions/mycompany-6.0.jar.
+3. Put the downloaded jar file to the directory C:\Program Files\lsFusion 6\Server\lib.
+4. Restart lsFusion 6 Server service.
 
 ### Log in to MyCompany
 
@@ -61,4 +61,4 @@ After making changes to the application source code to build the final jar file,
 3. From Available Elements list transfer the 'mycompany' compile output element to the jar file. Then press OK.
 4. Then select Build / Build artifacts in the menu item. Then select Build.
 
-With the artifact you can replace the old file, which is on the server in the folder /var/lib/lsfusion or C:\Program Files\lsFusion 5\Server\lib, and restart the service on the server.
+With the artifact you can replace the old file, which is on the server in the folder /var/lib/lsfusion or C:\Program Files\lsFusion 6\Server\lib, and restart the service on the server.
