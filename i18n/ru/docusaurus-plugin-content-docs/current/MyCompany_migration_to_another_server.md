@@ -54,27 +54,28 @@ Windows:
 
 **4** Восстановите базу данных с помощью **PostgreSQL**. В командной строке запустите команду `pg\_restore`.
 
-Windows по умолчанию:
+Windows :
 
--   зайти в каталог C:\\Program Files\\PostgreSQL\\12\\bin
--   затем запустить команду `pg\_restore -h сервер-p порт -U имя\_пользователя\_PostgreSQL -d имя\_БД "имя\_файла.backup"`  
-    *Например*: `pg\_restore -h localhost -p 5432 -U postgres -d lsfusion "d:\\2021-01-18-13-16-44.backup"`
--   введите запрошенный пароль пользователя PostgreSQL
+Все необходимое можно сделать через утилиту **pgAdmin**, которая устанавливается вместе с PostgreSQL.
 
 :::info
-Данные сервера, порта, пользователя и пароля PostgreSQL прописаны в файле **C:\\Program Files\\lsFusion 4\\Server\\confsettings.properties**
+Данные сервера, порта, пользователя и пароля PostgreSQL прописаны в файле **C:\\Program Files\\lsFusion 6\\Server\\conf\\settings.properties**
 :::
   
 
 **Linux** по умолчанию:
 
+-   зайдите в SSH консоль и переключитесь на пользователя postgres : `su postgres`
+-   зайдите в psql : `psql`
+-   удалите текущую базу данных : `DROP DATABASE lsfusion;`
+-   создайте новую базу данных : `CREATE DATABASE lsfusion WITH ENCODING='UTF8' TEMPLATE template0;`
+-   выйдите из psql : `\q`
 -   запустите команду `/usr/bin/pg\_restore -*h сервер-p порт -U имя\_пользователя\_PostgreSQL -d имя\_БД "имя\_файла.backup"`  
     *Например*:`usr/bin/pg\_restore -h localhost -U postgres -d lsfusion 2021-01-20-01-00-00.backup`
-
--   введите запрошенный пароль пользователя PostgreSQL
+-   при необходимости введите запрошенный пароль пользователя PostgreSQL
 
 :::info
-Данные сервера, порта, пользователя и пароля PostgreSQL прописаны в файле **/etc/lsfusion4-server/confsettings.properties**
+Данные сервера, порта, пользователя и пароля PostgreSQL прописаны в файле **/etc/lsfusion6-server/conf/settings.properties**
 :::
 
   
