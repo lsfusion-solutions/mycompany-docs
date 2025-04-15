@@ -8,6 +8,7 @@ module.exports = {
       link: {type: 'doc', id: 'Installation'},
       items: [
         'MyCompany_migration_to_another_server', 
+        'Docker',
       ]
     },
     {
