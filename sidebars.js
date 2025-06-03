@@ -207,5 +207,8 @@ module.exports = {
         'Pre-ordered_services', 
       ]
     },
+    'Projects',
+    'HR',
+    'CRM',
   ]
 };
