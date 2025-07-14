@@ -94,5 +94,9 @@
   "sidebar.docs.category.Services": {
     "message": "Оказание услуг",
     "description": "The label for category Services in sidebar docs"
+  },
+  "sidebar.docs.category.Projects": {
+    "message": "Управление проектами",
+    "description": "The label for category Projects in sidebar docs"
   }
 }

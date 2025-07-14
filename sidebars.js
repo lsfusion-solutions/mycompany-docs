@@ -207,7 +207,18 @@ module.exports = {
         'Pre-ordered_services', 
       ]
     },
-    'Projects',
+    {
+    type: 'category',
+    label: 'Projects',
+    link: {type: 'doc', id: 'Projects'},
+    items: [
+        'Project_settings',
+        'Project',
+        'Tasks',
+        'Tasks_time',
+        'Teams',
+        ]
+        },
     'HR',
     'CRM',
   ]
