@@ -79,7 +79,7 @@ Please, specify the following for a task type (pic.9):
 ![](images/Project_settings_EN_8.png)
 *Pic. 8 Task statuses tab*
 
-![](images/Project_settings_Ru_9.png)
+![](images/Project_settings_EN_9.png)
 *Pic. 9 Task statuses settings*
 
 ## Task types tab
