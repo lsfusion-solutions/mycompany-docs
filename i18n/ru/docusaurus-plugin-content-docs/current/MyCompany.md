@@ -15,3 +15,6 @@ slug: /
 - [Расчеты](Invoicing.md)
 - [Производство](Manufacturing_management.md)
 - [Услуги](Services.md)
+- [Проекты](Projects.md)
+- [Кадры](HR.md)
+- [CRM](CRM.md)

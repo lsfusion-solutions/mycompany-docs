@@ -15,4 +15,7 @@ Hear you will find documentation on installation, settings and usage of the syst
 - [Invoicing](Invoicing.md)
 - [Manufacturing](Manufacturing_management.md)
 - [Services](Services.md)
+- [Projects](Projects.md)
+- [Human resources](HR.md)
+- [CRM](CRM.md)
   

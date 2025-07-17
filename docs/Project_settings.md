@@ -98,8 +98,7 @@ To range tasks by priority set up the priorities you need here (pic. 12).
 Please, Please, specify the following for a priority  (pic. 13):
 - **Name** - priority name.
 - **ID** - priority ID.
-- **Color** - you may choose a color from the list of available and the tasks of the current priority will be 
-  colored in. 
+- **Color** - you may choose a color from the list of available to highlight the tasks of the current priority. 
 
 ![](images/Project_settings_EN_12.png)
 *Pic. 12 Task priorities tab*
@@ -117,71 +116,67 @@ To set up a tag you only need to specify the **Name**, **ID** and **Color** (pic
 ![](images/Project_settings_EN_15.png)
 *Pic. 15 Task tags settings*
 
-## Вкладка Последовательность действий
-На вкладке настраивается, через какие статусы проходит задача в процессе выполнения, в зависимости от типа задачи и
-роли сотрудника, который ее создает или назначает.
+## Workflow tab
+On the tab you can configure what statuses a task goes through depending on the task type and the role of the 
+employee that creates or fulfills the task. 
 
-В первую очередь нужно выбрать **Роль на проекте** и **Тип задачи**, для которых настраивается последовательность.
+First, select the **Project role** and **Task type** you configure the workflow for.  
 
-Далее, в таблице статусов задач нужно отметить для каждого статуса, на какой статус он может быть изменен. Эта
-настройка будет действовать для выбранного типа задач для всех пользователей с заданной ролью на проекте.
+Next, for each status in the first table tick the status it can be changed for. These settings will work for the 
+selected task type and project role. 
 
-Если для автора и исполнителя задачи последовательность изменения статусов должна различаться, то последовательность
-для автора настраивается в блоке **Автор**, а последовательность для исполнителя настраивается в блоке **Назначена на**.
+If you want a different workflow for the task author and the task executor, configure settings in the table **Author** 
+and **Assigned to** respectively. 
 
-Если ни в одном блоке не отмечены настройки, значит и автор и исполнитель с заданной ролью могут переводить задачи с
-выбранным типом в любой статус в любой последовательности.
+If none of the tables has any selected options, the author and the assignee will be able to change task statuses as 
+they wish.  
 
 ![](images/Project_settings_EN_16.png)
-*Pic. 16 Настройка последовательности работы с задачами*
+*Pic. 16 Workflow settings*
 
-## Вкладка Тип отметки времени
-В программе есть возможность отмечать (фиксировать) время сотрудника, затраченное на работу, отдых или иной значимый
-вид
-деятельности. Чтобы вести учет, сколько часов каким видом деятельности занимался сотрудник, нужно определить и
-настроить типы отметки времени (pic. 17).
+## Time entry type tab
+The application makes it possible to register the time (hours) an employee spends resting, working, or making anything 
+else. To keep a record of employees' occupation you need to decide on and configure time entry types.
+(pic. 17).
 
-Для типа отметки времени нужно указать(pic. 18):
-- **Имя** - название приоритета.
-- **Код** - уникальный идентификатор.
-- **По умолчанию** - такая отметка времени будет заполнятся автоматически на основании данных по регистрации  
-  рабочего времени.
+Please, specify the following for a time entry type(pic. 18):
+- **Name** - name of the entry type (occupation).
+- **ID** - unique ID.
+- **Default** - this time entry type will be used for the entries made automatically on the bases of the 
+  registered attendance. 
 
 [//]: # (todo: добавить ссылку на описание регистрации рабочего времени)
 
-- **Цвет** - вы можете выбрать цвет из доступной палитры, которым будут выделены отметки времени данного типа.
-- **Символ** - укажите символ, которым сокращенно будет обозначаться тип отметки времени.
-- **Обязательный проект** - если отмечено флажком, то для сохранения отметки времени обязательно должен быть указан
-  проект, к которому относится вносимая отметка времени
-- **Часы отметки времени** - здесь можно сформировать список наиболее часто используемых отметок времени текущего
-  типа, чтобы вносить их в табель одним кликом. Для создания стандартных часов отметки времени:
-    - нажмите кнопку **+Добавить**, появится пустая строка
-    - заполните **Имя** стандартных часов отметки времени
-    - укажите количество отработанных **Часов**
-    - при желании выберите **Цвет**, которым они будут отображаться в табеле.
+- **Color** - you may choose a color from the list of available to highlight the time entry type.
+- **Symbol** - Specify the character to abbreviate the time entry type.
+- **Project required** - if ticked, project must be specified to save a time entry. 
+- **Time entry hours** - here you can list the most frequently used hours (duration) of the current
+  type to add them to the timesheet with one click:
+    - click the button **+Add**, an empty line will appear,
+    - fill in the **Name** of commonly used hours,
+    - set the quantity of **Hours**,
+    - select the **Color** to highlight the time entry on the timesheet if applicable.
 
 ![](images/Project_settings_EN_17.png)
-*Pic. 17 Вкладка Типы отметки времени*
+*Pic. 17 Time entry type tab*
 
 ![](images/Project_settings_EN_18.png)
-*Pic. 15 Настройка типов отметки времени*
+*Pic. 15 Time entry type settings*
 
-## Вкладка Сотрудники
-На этой вкладке (pic. 19) отображается список всех сотрудников. Для каждого сотрудника можно указать **Услугу**,
-которую они  
-оказывают заказчикам. В этом случае, время, которое сотрудник отработал на проекте, будет выставлено заказчику в
-реализации как стоимость оказанных услуг.
+## Employees tab
+The list of all employees is displayed here (pic. 19). For each of them you can set a **Service** they provide to a 
+customer. If the service is set, the time the employee was working on the project, will be charged as the amount of 
+rendered services in the invoice to the customer. 
 
 [//]: # (todo - вставить ссылку на создание реализации в проекте)
 
 ![](images/Project_settings_EN_19.png)
-*Pic. 19 Настройка оказания услуг сотрудниками*
+*Pic. 19 Service rendering settings*
 
-## Вкладка Шаблон смен
-На вкладке можно задать стандартные смены, с помощью которых при планировании рабочего времени назначение смен
-сотрудникам производится в один клик.
+## Shift templates tab
+Here you can define standard shifts that can be assigned to employees in one click when drafting working schedule.  
 
-Чтобы создать стандартную смену, нажмите кнопку **+Добавить** и в появившейся строке внесите время начала и окончания смены.
+To create a shift template click +Add and set the start and end time. 
 
 ![](images/Project_settings_EN_20.png)
-*Pic. 20 Настройка шаблонов смен*
+*Pic. 20 Shift templates tab*
