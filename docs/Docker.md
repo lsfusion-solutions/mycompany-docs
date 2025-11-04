@@ -39,13 +39,9 @@ You must install [Docker](https://docs.docker.com/get-docker/) and [Docker Compo
   After the first launch, subfolders will be created in the `$FUSION_DIR$` folder:
     - `docker-client-conf` - client configuration.
     - `docker-db` - database files.
+    - `docker-server` - server files.
 
-  The server data will be stored in a Docker volume managed by Docker Engine, with the default name `mycompany_docker-server`. Your lsFusion language modules (`.lsf` files or folders with them) as well as other resources (reports, Java files, images, CSS, JS, etc.) or the `settings.properties` file will be stored there. Server logs are also located there.
+  These directories are bind-mounted into their respective containers.
 
-  If necessary, files are copied to the running container. For example, to copy the `conf` folder with the `settings.properties` file in it, use the command:
-    ```bash
-    docker cp <yourPath>/conf mycompany-server-1:/lsfusion
-    ```
-`mycompany-server-1` is the default server container name. It may be changed according to your settings.
-
-After stopping the container, the files from the `lsfusion` folder will be saved in the volume.
+  - In the `docker-server` folder put the lsFusion language modules (`.lsf` files or folders with them), as well as additional resources (reports, Java files, images, CSS, JS, etc.). The server logs and the `settings.properties` file are also in the same folder.
+  
