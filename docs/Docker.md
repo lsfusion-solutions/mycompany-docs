@@ -16,11 +16,12 @@ You must install [Docker](https://docs.docker.com/get-docker/) and [Docker Compo
 
 - The `compose.yaml` setting (optional):
     - If you need to change the startup settings (e.g., use a different container version or customize environment variables), edit the `compose.yaml` file according to the [Docker documentation](https://docs.docker.com/get-started/overview/).
-    - Application server startup options can also be set using the container's environment variables - in the environment attribute. For example, to change the server locale to Russian, write:
+    - Application server startup options can also be set using the container's environment variables - in the environment attribute. For example, to change the server locale to Russian and set custom Xmx value, write:
        ```yml
        environment:
-       - USER_SETLANGUAGE=ru
-       - USER_SETCOUNTRY=RU
+         - USER_SETLANGUAGE=ru
+         - USER_SETCOUNTRY=RU   
+         - JAVA_OPTS=-Xmx10g
        ```
   When searching for startup parameters in environment variables, Spring automatically converts them to uppercase and replaces dots with underscores. In the example above, the values of the environment variables will be substituted into the corresponding parameters: `user.setLanguage` and `user.setCountry`.
     - Available lsFusion container images:
