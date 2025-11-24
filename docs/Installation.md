@@ -19,6 +19,28 @@ source <(curl -s https://download.lsfusion.org/solutions/install-mycompany-ubunt
 You can see the lsFusion server startup log in /var/log/lsfusion6-server/start.log .
 
 To increase the amount of memory allocated to the application, you need to edit the -Xmx parameter in /etc/lsfusion6-server/lsfusion.conf and /etc/lsfusion6-client/lsfusion.conf. You must then restart the services.
+#### Locale based commands
+<!--Tabs-->
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs groupId="locales" defaultValue="pl" values={[{label: 'Polish', value: 'pl'},]}>
+<TabItem value="pl">
+To install the solution with Polish locale use the commands below.
+
+**RHEL 8+ / CentOS 8+ / Fedora 35+**
+```
+source <(curl -s https://download.lsfusion.org/solutions/install-mycompany-centos8-pl.sh)
+```
+**Ubuntu 18+ / Debian 9+**
+```
+source <(curl -s https://download.lsfusion.org/solutions/install-mycompany-ubuntu18-pl.sh)
+```
+</TabItem>
+</Tabs>
+
+
+
 
 ### Windows installation
 
