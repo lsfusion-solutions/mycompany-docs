@@ -32,7 +32,7 @@ title: 'Установка при помощи Docker'
 
   Перейдите в папку `$FUSION_DIR$` и выполните команду:
   ```bash
-  docker-compose up
+  docker compose up -d
   ```
   После завершения запуска веб-клиент будет доступен по адресу: `http://localhost:8080/`.
 

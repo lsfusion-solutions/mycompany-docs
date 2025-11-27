@@ -32,7 +32,7 @@ You must install [Docker](https://docs.docker.com/get-docker/) and [Docker Compo
 
   Go to the `$FUSION_DIR$` folder and run the command:
     ```bash
-     docker-compose up
+     docker compose up -d
     ```
   Once the launch is complete, the web client will be available at: `http://localhost:8080/`.
 
