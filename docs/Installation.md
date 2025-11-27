@@ -45,7 +45,7 @@ source <(curl -s https://download.lsfusion.org/solutions/install-mycompany-ubunt
 ### Windows installation
 
 1. Download and run lsFusion platform installer (execution) : https://docs.lsfusion.org/Execution_auto/.
-2. Download the assembled jar file with MyCompany logic from https://download.lsfusion.org/solutions/mycompany-6.0.jar.
+2. Download the assembled jar file with MyCompany logic from https://download.lsfusion.org/solutions/mycompany-6.1.jar.
 3. Put the downloaded jar file to the directory C:\Program Files\lsFusion 6\Server\lib.
 4. Restart lsFusion 6 Server service.
 
