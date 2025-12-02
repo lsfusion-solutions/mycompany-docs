@@ -47,7 +47,7 @@ MyCompany - это бесплатная открытая система упра
 
   
 
-### 4. Создать в IntelliJ IDEA ветку (Brunch) для выбранной задачи
+### 4. Создать в IntelliJ IDEA ветку (Branch) для выбранной задачи
 
 Выберите в настройках Git IntelliJ IDEA пункт меню **Branches**
 
