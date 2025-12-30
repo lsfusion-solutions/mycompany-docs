@@ -1,226 +1,240 @@
-module.exports = {
-  docs: [
-    'MyCompany', 
-    'Development', 
-    {
-      type: 'category',
-      label: 'Installation',
-      link: {type: 'doc', id: 'Installation'},
-      items: [
-        'MyCompany_migration_to_another_server', 
-        'Docker',
-      ]
-    },
-
-    {
-      type: 'category',
-      label: 'Administration',
-      link: {type: 'doc', id: 'Administration'},
-      items: [
-        'User_roles', 
-        'Role_permissions',
-      ]
-    },
-    'Data_upload', 
-    {
-      type: 'category',
-      label: 'General settings and master data',
-      link: {type: 'doc', id: 'General_settings_and_master_data'},
-      items: [
-        'Numerators', 
-        'Partners_directory', 
-        'Categories', 
-        'Units_of_measure', 
-        'Items_directory', 
-        'Attributes', 
-        'Employees_directory', 
-        'Contracts_directory', 
-      ]
-    },
-    {
-      type: 'category',
-      label: 'Sales',
-      link: {type: 'doc', id: 'Sales'},
-      items: [
+/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
+const sidebars = {
+    docs: [
+        'overview',
         {
-          type: 'category',
-          label: 'Pricelists',
-          link: {type: 'doc', id: 'Pricelists'},
-          items: [
-            'Pricelist_types', 
-          ]
-        },
-        'Discount_settings', 
-        'Customer_order_types', 
-        'Price_type_settings', 
-      ]
-    },
-    {
-      type: 'category',
-      label: 'Invoicing',
-      link: {type: 'doc', id: 'Invoicing'},
-      items: [
-        {
-          type: 'category',
-          label: 'Settings',
-          link: {type: 'doc', id: 'Settings'},
-          items: [
-            'Bill_type', 
-            'Invoice_type', 
-            'Payment_type', 
-          ]
+            type: 'category',
+            label: 'Administration',
+            items: [
+                'administration/installation',
+                'administration/installation-docker',
+                'administration/development',
+            ],
+            link: {
+                type: 'doc',
+                id: 'administration/administration'
+            }
         },
         {
-          type: 'category',
-          label: 'Reporting',
-          link: {type: 'doc', id: 'Reporting'},
-          items: [
-            'Payments', 
-            'Invoices_report', 
-          ]
-        },
-      ]
-    },
-    {
-      type: 'category',
-      label: 'Purchase',
-      link: {type: 'doc', id: 'Purchase'},
-      items: [
-        'Purchase_order_type', 
-        'Vendor_pricelists', 
-      ]
-    },
-    {
-      type: 'category',
-      label: 'Inventory',
-      link: {type: 'doc', id: 'Inventory'},
-      items: [
-        'Location_settings', 
-        'Shipment_type', 
-        'Receipt_type', 
-      ]
-    },
-    {
-      type: 'category',
-      label: 'Manufacturing',
-      link: {type: 'doc', id: 'Manufacturing'},
-      items: [
-        'Manufacturing_order_type', 
-      ]
-    },
-    {
-      type: 'category',
-      label: 'Wholesale',
-      link: {type: 'doc', id: 'Wholesale'},
-      items: [
-        {
-          type: 'category',
-          label: 'Purchasing',
-          link: {type: 'doc', id: 'Purchasing'},
-          items: [
-            'Puchase_order', 
-            {
-              type: 'category',
-              label: 'Receipts',
-              link: {type: 'doc', id: 'Receipts'},
-              items: [
-                'Multiple_receipts', 
-              ]
-            },
-            'Vendor_payments', 
-            'Purchase_order_cancellation', 
-          ]
+            type: 'category',
+            label: 'Master Data',
+            items: [
+                'masterdata/partners',
+                'masterdata/items',
+                'masterdata/categories',
+                'masterdata/uom',
+                'masterdata/departments',
+                'masterdata/countries',
+                'masterdata/currencies',
+                'masterdata/contracts',
+            ],
+            link: {
+                type: 'doc',
+                id: 'masterdata/masterdata'
+            }
         },
         {
-          type: 'category',
-          label: 'Sale of goods',
-          link: {type: 'doc', id: 'Sale_of_goods'},
-          items: [
-            'Customer_orders', 
-            'Shipments', 
-            'Customer_invoice_and_Payment_collection', 
-            {
-              type: 'category',
-              label: 'Cross-docking',
-              link: {type: 'doc', id: 'Cross-docking'},
-              items: [
-                'Cross-docking_settings', 
-                'Cross-docking_orders', 
-              ]
-            },
-          ]
-        },
-        'Adjustments', 
-      ]
-    },
-    {
-      type: 'category',
-      label: 'Retail',
-      link: {type: 'doc', id: 'Retail'},
-      items: [
-        {
-          type: 'category',
-          label: 'General settings',
-          link: {type: 'doc', id: 'General_settings'},
-          items: [
-            'Cash_registers', 
-            'Discount_cards', 
-          ]
+            type: 'category',
+            label: 'Inventory',
+            items: [
+                'inventory/locations',
+                'inventory/receipts',
+                'inventory/shipments',
+                'inventory/transfers',
+                'inventory/transfer-bulk-create',
+                'inventory/scrap',
+                'inventory/adjustments',
+                'inventory/picking',
+                'inventory/lots-and-packages',
+                'inventory/reports-and-ledgers',
+                'inventory/costing',
+                'inventory/settings',
+            ],
+            link: {
+                type: 'doc',
+                id: 'inventory/inventory'
+            }
         },
         {
-          type: 'category',
-          label: 'POS',
-          link: {type: 'doc', id: 'POS'},
-          items: [
-            'Customer_order_paid_on_POS', 
-            'Returns', 
-          ]
+            type: 'category',
+            label: 'Invoicing',
+            items: [
+                'invoicing/bills',
+                'invoicing/invoices',
+                'invoicing/shipments-from-invoice',
+                'invoicing/refunds-and-corrections',
+                'invoicing/payments',
+                'invoicing/incoming-payments',
+                'invoicing/outgoing-payments',
+                'invoicing/debt-and-calendar',
+                'invoicing/taxes',
+                'invoicing/reports-and-printing',
+                'invoicing/settings',
+                {
+                    type: 'category',
+                    label: 'Ksef',
+                    items: [
+                        'invoicing/ksef/wprowadzenie',
+                        'invoicing/ksef/dostep-i-logowanie',
+                        'invoicing/ksef/sesja-i-szyfrowanie',
+                        'invoicing/ksef/wysylka-faktur',
+                        'invoicing/ksef/pobieranie-faktur',
+                        'invoicing/ksef/faktury-zakupu',
+                        'invoicing/ksef/automatyzacja',
+                        'invoicing/ksef/rozwiazywanie-problemow',
+                    ],
+                    link: {
+                        type: 'doc',
+                        id: 'invoicing/ksef/ksef'
+                    }
+                },
+            ],
+            link: {
+                type: 'doc',
+                id: 'invoicing/invoicing'
+            }
         },
-        'Printing_price_tags_and_pricelists', 
-        'Printing_labels', 
-      ]
-    },
-    {
-      type: 'category',
-      label: 'Manufacturing management',
-      link: {type: 'doc', id: 'Manufacturing_management'},
-      items: [
         {
-          type: 'category',
-          label: 'Bills of Materials',
-          link: {type: 'doc', id: 'Bills_of_Materials'},
-          items: [
-            'Cost_of_BoM', 
-          ]
+            type: 'category',
+            label: 'Purchase',
+            items: [
+                'purchase/orders',
+                'purchase/receipts',
+                'purchase/bills',
+                'purchase/pricelists',
+                'purchase/reports',
+                'purchase/settings'
+            ],
+            link: {
+                type: 'doc',
+                id: 'purchase/purchase'
+            }
         },
-        'Manufacturing_order', 
-        'Unbuild_order', 
-        'Byproducts', 
-        'Auto_created_manufacturing_order_from_customer_order', 
-      ]
-    },
-    {
-      type: 'category',
-      label: 'Services',
-      link: {type: 'doc', id: 'Services'},
-      items: [
-        'Selling_sevices_at_the_point_of_delivery', 
-        'Pre-ordered_services', 
-      ]
-    },
-    {
-    type: 'category',
-    label: 'Projects',
-    link: {type: 'doc', id: 'Projects'},
-    items: [
-        'Project_settings',
-        'Project',
-        'Tasks',
-        'Tasks_time',
-        'Teams',
-        ]
+        {
+            type: 'category',
+            label: 'Manufacturing',
+            items: [
+                'manufacturing/bom',
+                'manufacturing/orders',
+                'manufacturing/sales-orders',
+                'manufacturing/workflow',
+                'manufacturing/production-and-consumption',
+                'manufacturing/costing',
+                'manufacturing/unbuild',
+                'manufacturing/by-products',
+                'manufacturing/lots-and-printing',
+                'manufacturing/scrap',
+                'manufacturing/reports',
+                'manufacturing/settings',
+            ],
+            link: {
+                type: 'doc',
+                id: 'manufacturing/manufacturing'
+            }
         },
-    'HR',
-    'CRM',
-  ]
+        {
+            type: 'category',
+            label: 'Sales',
+            items: [
+                'sales/orders',
+                'sales/workflow-and-statuses',
+                'sales/shipments',
+                'sales/invoices',
+                'sales/pricelists',
+                'sales/discounts',
+                'sales/reports',
+                'sales/settings',
+            ],
+            link: {
+                type: 'doc',
+                id: 'sales/sales'
+            }
+        },
+        {
+            type: 'category',
+            label: 'Retail',
+            items: [
+                'retail/pos',
+                'retail/returns',
+                'retail/sessions',
+                'retail/payments',
+                'retail/discount-cards',
+                'retail/marking',
+                'retail/settings'
+            ],
+            link: {
+                type: 'doc',
+                id: 'retail/retail'
+            }
+        },
+        {
+            type: 'category',
+            label: 'Project Management',
+            items: [
+                'projectManagement/projects',
+                'projectManagement/tasks',
+                'projectManagement/time-entries',
+                'projectManagement/timesheets',
+                'projectManagement/team-and-roles',
+                'projectManagement/reports',
+                'projectManagement/settings',
+            ],
+            link: {
+                type: 'doc',
+                id: 'projectManagement/projectManagement'
+            }
+        },
+        {
+            type: 'category',
+            label: 'Human Resources',
+            items: [
+                'humanResources/recruitment',
+                'humanResources/attendance',
+                'humanResources/payroll',
+                'humanResources/payroll-batch',
+                'humanResources/payslip',
+                'humanResources/net-wage',
+                'humanResources/payroll-time-entries',
+                'humanResources/payroll-payments',
+                'humanResources/settings'
+            ],
+            link: {
+                type: 'doc',
+                id: 'humanResources/humanResources'
+            }
+        },
+        {
+            type: 'category',
+            label: 'CRM',
+            items: [
+                'crm/leads',
+                'crm/kanban',
+                'crm/communications',
+                'crm/sales-and-documents',
+                'crm/reports',
+                'crm/settings'
+            ],
+            link: {
+                type: 'doc',
+                id: 'crm/crm'
+            }
+        },
+        {
+            type: 'category',
+            label: 'Transport',
+            items: [
+                'transport/vehicles',
+                'transport/drivers',
+                'transport/service',
+                'transport/contracts',
+                'transport/settings',
+            ],
+            link: {
+                type: 'doc',
+                id: 'transport/transport'
+            }
+        }
+    ],
 };
+
+module.exports = sidebars;

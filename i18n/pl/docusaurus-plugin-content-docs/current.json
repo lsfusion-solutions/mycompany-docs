@@ -1,0 +1,54 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.Administration": {
+    "message": "Administracja",
+    "description": "The label for category Administration in sidebar docs"
+  },
+  "sidebar.docs.category.Master Data": {
+    "message": "Dane podstawowe",
+    "description": "The label for category Master Data in sidebar docs"
+  },
+  "sidebar.docs.category.Inventory": {
+    "message": "Magazynowanie",
+    "description": "The label for category Inventory in sidebar docs"
+  },
+  "sidebar.docs.category.Invoicing": {
+    "message": "Fakturowanie",
+    "description": "The label for category Invoicing in sidebar docs"
+  },
+  "sidebar.docs.category.Purchase": {
+    "message": "Zakup",
+    "description": "The label for category Purchase in sidebar docs"
+  },
+  "sidebar.docs.category.Manufacturing": {
+    "message": "Produkcja",
+    "description": "The label for category Manufacturing in sidebar docs"
+  },
+  "sidebar.docs.category.Sales": {
+    "message": "Sprzedaż",
+    "description": "The label for category Sales in sidebar docs"
+  },
+  "sidebar.docs.category.Retail": {
+    "message": "Sprzedaż detaliczna",
+    "description": "The label for category Retail in sidebar docs"
+  },
+  "sidebar.docs.category.Project Management": {
+    "message": "Zarządzanie projektami",
+    "description": "The label for category Project Management in sidebar docs"
+  },
+  "sidebar.docs.category.Human Resources": {
+    "message": "Kadry",
+    "description": "The label for category Human Resources in sidebar docs"
+  },
+  "sidebar.docs.category.CRM": {
+    "message": "CRM",
+    "description": "The label for category CRM in sidebar docs"
+  },
+  "sidebar.docs.category.Transport": {
+    "message": "Transport",
+    "description": "The label for category Transport in sidebar docs"
+  }
+}
