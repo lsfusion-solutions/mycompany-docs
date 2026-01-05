@@ -45,6 +45,7 @@ const sidebars = {
                 'inventory/scrap',
                 'inventory/adjustments',
                 'inventory/picking',
+                'inventory/product-sku',
                 'inventory/lots-and-packages',
                 'inventory/reports-and-ledgers',
                 'inventory/costing',
