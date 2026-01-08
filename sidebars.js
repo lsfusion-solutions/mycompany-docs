@@ -213,6 +213,7 @@ const sidebars = {
                 'crm/communications',
                 'crm/sales-and-documents',
                 'crm/reports',
+                'crm/zadarma',
                 'crm/mango',
                 'crm/settings'
             ],
