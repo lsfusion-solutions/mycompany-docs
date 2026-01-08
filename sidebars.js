@@ -27,6 +27,7 @@ const sidebars = {
                 'masterdata/countries',
                 'masterdata/currencies',
                 'masterdata/contracts',
+                'masterdata/activities',
             ],
             link: {
                 type: 'doc',
