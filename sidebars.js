@@ -70,6 +70,7 @@ const sidebars = {
                 'invoicing/outgoing-payments',
                 'invoicing/debt-and-calendar',
                 'invoicing/taxes',
+                'invoicing/bill-cost',
                 'invoicing/reports-and-printing',
                 'invoicing/settings',
                 {
