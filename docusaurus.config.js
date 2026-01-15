@@ -136,7 +136,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
     }
   },  
   i18n: {
-    defaultLocale: 'ru',
+    defaultLocale: 'en',
     locales: ['en', 'ru', 'pl'],
     localeConfigs: {
       en: {
