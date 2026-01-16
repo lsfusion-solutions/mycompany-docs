@@ -127,6 +127,7 @@ const sidebars = {
                 'manufacturing/by-products',
                 'manufacturing/lots-and-printing',
                 'manufacturing/scrap',
+                'manufacturing/work-orders',
                 'manufacturing/reports',
                 'manufacturing/settings',
             ],
