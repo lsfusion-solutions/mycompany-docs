@@ -126,6 +126,12 @@ import {themes as prismThemes} from 'prism-react-renderer';
         darkTheme: prismThemes.vsDark,      
         additionalLanguages: ['bash', 'css', 'java', 'json'],
       },
+      algolia: {
+          appId: '7W5VIOX2IB',
+          apiKey: '6ebdd0b0036c45cf12abc0d51cdb7328',
+          indexName: 'MyCompany',
+          contextualSearch: true,
+      },
     }),
   markdown: {
     format: 'mdx',
