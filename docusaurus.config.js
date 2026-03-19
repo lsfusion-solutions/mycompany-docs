@@ -127,9 +127,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
         additionalLanguages: ['bash', 'css', 'java', 'json'],
       },
       algolia: {
-          appId: '7W5VIOX2IB',
-          apiKey: '6ebdd0b0036c45cf12abc0d51cdb7328',
-          indexName: 'MyCompany',
+          appId: '0QP0SG13PC',
+          apiKey: '8e0affbb5d93fd6fc524d71ddf541eb7',
+          indexName: 'MyCompany Crawl',
           contextualSearch: true,
       },
     }),
