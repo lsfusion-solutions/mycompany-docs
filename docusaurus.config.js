@@ -9,7 +9,6 @@ import {themes as prismThemes} from 'prism-react-renderer';
   url: 'https://lsfusion-solutions.github.io',
   baseUrl: '/',
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
   onBrokenAnchors: 'ignore', // Should be updated to 'warn' in the future due to current functionality issues
   favicon: 'img/favicon.ico',
   organizationName: 'lsfusion-solutions', // Usually your GitHub org/user name.
@@ -139,8 +138,12 @@ import {themes as prismThemes} from 'prism-react-renderer';
       comments: true,
       admonitions: true,
       headingIds: true
+    },
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+      onBrokenMarkdownImages: 'warn',
     }
-  },  
+  },
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'ru', 'pl'],
@@ -157,6 +160,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
     },  
   },
   future: {
+    v4: true,
     experimental_faster: true,
   },
 });
