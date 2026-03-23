@@ -33,7 +33,8 @@ systemctl start lsfusion6-client
 
 
 ### Windows
-Скачайте и запустите файл по ссылке https://download.lsfusion.org/solutions/mycompany-6.1-x64.exe. Все необходимые 
+
+Скачайте и запустите файл по ссылке https://download.lsfusion.org/solutions/mycompany-6.1-x64.exe. Все необходимые
 компоненты будут установлены.
 
 Или выполните следующие действия:
