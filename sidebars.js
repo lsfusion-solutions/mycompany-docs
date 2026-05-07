@@ -9,7 +9,6 @@ const sidebars = {
                 'administration/installation',
                 'administration/installation-docker',
                 'administration/development',
-                'administration/openai',
             ],
             link: {
                 type: 'doc',
