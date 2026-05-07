@@ -28,13 +28,14 @@ import {themes as prismThemes} from 'prism-react-renderer';
           editLocalizedFiles: true,
           routeBasePath: '/',
           showLastUpdateTime: true,
-          lastVersion: 'v6',
+          lastVersion: 'current',
           versions: {
             current: {
               label: '7.0',
             },
             'v6': {
               label: '6.0',
+              banner: 'none',
             },
          },          
 
