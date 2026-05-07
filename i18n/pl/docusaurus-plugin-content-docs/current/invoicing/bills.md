@@ -6,6 +6,8 @@ title: Faktury zakupu
 
 Otwórz **„Fakturowanie” → „Operacje” → „Faktury zakupu”**.
 
+Dla kompaktowego wprowadzania z telefonu lub tabletu zobacz [Mobilne faktury zakupu](mobile-bills.md).
+
 ## Przeznaczenie
 
 Faktura zakupu służy do:
@@ -70,6 +72,45 @@ Linie zwykle zawierają:
 - kwotę linii.
 
 Jeśli podatki są skonfigurowane, podatek może zostać podstawiony automatycznie (np. z karty towaru/usługi albo z typu dokumentu).
+
+Jeśli w typie rachunku jest ustawiony **domyślny towar**, jest on automatycznie podstawiany do nowej linii, gdy towar nie został jeszcze wskazany (analogicznie do tego, jak **domyślny dostawca** jest podstawiany do nagłówka rachunku). Przyspiesza to wprowadzanie dla typów, w których zwykle używany jest ten sam towar/usługa.
+
+### Import z pliku z użyciem OpenAI
+
+Jeśli dla wybranego typu faktury zakupu skonfigurowano opis rozpoznawania, na karcie dokumentu pojawia się działanie importu z pliku z użyciem OpenAI.
+
+#### Co trzeba przygotować
+
+- uzupełnić klucz API OpenAI i w razie potrzeby utworzyć konfiguracje GPT dla modelu, rozumowania i dodatkowego promptu;
+- skonfigurować opis rozpoznawania w typie faktury zakupu;
+- wcześniej sprawdzić dane dostawców, towarów i usług, walut oraz podatków.
+
+Szczegóły przygotowania: [Ustawienia i katalogi](settings.md).
+
+#### Jak używać
+
+1. Otwórz fakturę zakupu dostępną do edycji.
+2. Upewnij się, że bieżące zmiany w dokumencie są poprawne. Przed importem system próbuje zapisać dokument i jeśli walidacja się nie powiedzie, import nie rozpocznie się.
+3. Uruchom import i wskaż plik z dokumentem od dostawcy. Jeśli skonfigurowano kilka konfiguracji GPT, wybierz tę, której chcesz użyć. Standardowy scenariusz zakłada jeden dokument w jednym pliku.
+4. Po uzupełnieniu sprawdź nagłówek i linie faktury zakupu, a w razie potrzeby popraw wynik ręcznie.
+
+#### Co zwykle jest uzupełniane
+
+Z pliku system próbuje określić:
+
+- w nagłówku: numer, datę, datę dostawy, termin płatności, dostawcę i walutę;
+- w liniach: opis, towar/usługę, ilość, cenę, kwotę netto i podatki.
+
+#### Ograniczenia i cechy działania
+
+- Nowe dane słownikowe nie są tworzone automatycznie. OpenAI dopasowuje wartości wyłącznie do danych, które już istnieją w systemie.
+- Przy dopasowaniu towarów i usług wykorzystywane są kod, nazwa, indeks i kod kreskowy. Przy dopasowaniu dostawcy wykorzystywane są kod, nazwa i adres.
+- Jeśli wartości nie uda się rozpoznać albo dopasować, odpowiednie pole może pozostać puste.
+- Przy imporcie do już uzupełnionej faktury zakupu nagłówek jest nadpisywany danymi z pliku, a nowe linie są dodawane do istniejących. Ponowny import wygodniej wykonywać do nowej faktury zakupu albo po ręcznym usunięciu linii.
+- Jeśli dla typu faktury zakupu nie uzupełniono opisu rozpoznawania, działanie importu nie jest pokazywane.
+- Jeśli nie uzupełniono klucza API OpenAI albo zewnętrzne żądanie zakończyło się błędem, system pokaże komunikat i nie wykona importu.
+
+Jeśli w typie rachunku jest ustawiony **domyślny towar**, jest on automatycznie podstawiany do nowej linii, gdy towar nie został jeszcze wskazany (analogicznie do tego, jak **domyślny dostawca** jest podstawiany do nagłówka rachunku). Przyspiesza to wprowadzanie dla typów, w których zwykle używany jest ten sam towar/usługa.
 
 ### Statusy
 

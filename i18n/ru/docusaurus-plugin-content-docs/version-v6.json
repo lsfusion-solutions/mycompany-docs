@@ -1,0 +1,54 @@
+{
+  "version.label": {
+    "message": "6.0",
+    "description": "The label for version v6"
+  },
+  "sidebar.docs.category.Administration": {
+    "message": "Администрирование",
+    "description": "The label for category Administration in sidebar docs"
+  },
+  "sidebar.docs.category.Master Data": {
+    "message": "Справочники",
+    "description": "The label for category Master Data in sidebar docs"
+  },
+  "sidebar.docs.category.Inventory": {
+    "message": "Склад",
+    "description": "The label for category Inventory in sidebar docs"
+  },
+  "sidebar.docs.category.Invoicing": {
+    "message": "Расчёты",
+    "description": "The label for category Invoicing in sidebar docs"
+  },
+  "sidebar.docs.category.Purchase": {
+    "message": "Закупки",
+    "description": "The label for category Purchase in sidebar docs"
+  },
+  "sidebar.docs.category.Manufacturing": {
+    "message": "Производство",
+    "description": "The label for category Manufacturing in sidebar docs"
+  },
+  "sidebar.docs.category.Sales": {
+    "message": "Продажи",
+    "description": "The label for category Sales in sidebar docs"
+  },
+  "sidebar.docs.category.Retail": {
+    "message": "Розница",
+    "description": "The label for category Retail in sidebar docs"
+  },
+  "sidebar.docs.category.Project Management": {
+    "message": "Проекты",
+    "description": "The label for category Project Management in sidebar docs"
+  },
+  "sidebar.docs.category.Human Resources": {
+    "message": "Кадры",
+    "description": "The label for category Human Resources in sidebar docs"
+  },
+  "sidebar.docs.category.CRM": {
+    "message": "CRM",
+    "description": "The label for category CRM in sidebar docs"
+  },
+  "sidebar.docs.category.Transport": {
+    "message": "Автопарк",
+    "description": "The label for category Transport in sidebar docs"
+  }
+}

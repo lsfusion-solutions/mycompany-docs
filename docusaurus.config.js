@@ -28,6 +28,16 @@ import {themes as prismThemes} from 'prism-react-renderer';
           editLocalizedFiles: true,
           routeBasePath: '/',
           showLastUpdateTime: true,
+          lastVersion: 'v6',
+          versions: {
+            current: {
+              label: '7.0',
+            },
+            'v6': {
+              label: '6.0',
+            },
+         },          
+
         },
         blog: {
           showReadingTime: true,
@@ -64,6 +74,11 @@ import {themes as prismThemes} from 'prism-react-renderer';
             href: 'https://github.com/lsfusion-solutions/mycompany',
             label: 'GitHub',
             position: 'right',
+          },
+          {
+            type: 'docsVersionDropdown',
+            position: 'right',
+            dropdownActiveClassDisabled: true,
           },
           {
             type: 'localeDropdown',
