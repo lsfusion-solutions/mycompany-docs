@@ -19,6 +19,10 @@
     "message": "Fakturowanie",
     "description": "The label for category Invoicing in sidebar docs"
   },
+  "sidebar.docs.category.Accounting": {
+    "message": "Księgowość",
+    "description": "The label for category Accounting in sidebar docs"
+  },
   "sidebar.docs.category.Purchase": {
     "message": "Zakup",
     "description": "The label for category Purchase in sidebar docs"

@@ -9,6 +9,7 @@ const sidebars = {
                 'administration/installation',
                 'administration/installation-docker',
                 'administration/development',
+                'administration/openai',
             ],
             link: {
                 type: 'doc',
@@ -62,6 +63,7 @@ const sidebars = {
             label: 'Invoicing',
             items: [
                 'invoicing/bills',
+                'invoicing/mobile-bills',
                 'invoicing/invoices',
                 'invoicing/shipments-from-invoice',
                 'invoicing/refunds-and-corrections',
@@ -95,6 +97,21 @@ const sidebars = {
             link: {
                 type: 'doc',
                 id: 'invoicing/invoicing'
+            }
+        },
+        {
+            type: 'category',
+            label: 'Accounting',
+            items: [
+                'accounting/settings',
+                'accounting/source-documents',
+                'accounting/journal-entries',
+                'accounting/assets',
+                'accounting/reports',
+            ],
+            link: {
+                type: 'doc',
+                id: 'accounting/accounting'
             }
         },
         {

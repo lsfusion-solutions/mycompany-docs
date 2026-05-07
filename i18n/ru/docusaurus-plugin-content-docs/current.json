@@ -19,6 +19,10 @@
     "message": "Расчёты",
     "description": "The label for category Invoicing in sidebar docs"
   },
+  "sidebar.docs.category.Accounting": {
+    "message": "Бухгалтерия",
+    "description": "The label for category Accounting in sidebar docs"
+  },
   "sidebar.docs.category.Purchase": {
     "message": "Закупки",
     "description": "The label for category Purchase in sidebar docs"
