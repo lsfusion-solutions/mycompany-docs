@@ -15,6 +15,30 @@
     "message": "Закрыть",
     "description": "The ARIA label for close button of announcement bar"
   },
+  "theme.admonition.caution": {
+    "message": "Осторожно",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "Опасно",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "К сведению",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "Примечание",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "Совет",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "Предупреждение",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
   "theme.blog.archive.title": {
     "message": "Archive",
     "description": "The page & hero title of the blog archive page"
