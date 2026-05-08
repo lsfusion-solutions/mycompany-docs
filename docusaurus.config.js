@@ -23,9 +23,10 @@ import {themes as prismThemes} from 'prism-react-renderer';
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/lsfusion-solutions/mycompany-docs/edit/main/',
-          editLocalizedFiles: true,
+          editUrl: ({locale, version, docPath}) => {
+            const branch = version === 'v6' ? 'v6' : 'master';
+            return `https://github.com/lsfusion-solutions/mycompany/edit/${branch}/src/main/resources/docs/${locale}/${docPath}`;
+          },
           routeBasePath: '/',
           showLastUpdateTime: true,
           lastVersion: 'current',
