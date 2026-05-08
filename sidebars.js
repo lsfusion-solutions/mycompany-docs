@@ -20,6 +20,19 @@ const sidebars = {
             type: 'category',
             label: 'Master Data',
             items: [
+                {
+                    type: 'category',
+                    label: 'Autodesk',
+                    items: [
+                        'masterdata/autodesk/autodesk-setup',
+                        'masterdata/autodesk/autodesk-buckets-and-models',
+                        'masterdata/autodesk/autodesk-viewer',
+                    ],
+                    link: {
+                        type: 'doc',
+                        id: 'masterdata/autodesk/autodesk'
+                    }
+                },
                 'masterdata/partners',
                 'masterdata/items',
                 'masterdata/categories',
