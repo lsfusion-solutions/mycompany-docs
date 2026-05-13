@@ -148,6 +148,16 @@ import {themes as prismThemes} from 'prism-react-renderer';
           indexName: 'MyCompany Crawl',
           contextualSearch: true,
       },
+      zoom: {
+        selector: '.markdown img',
+        background: {
+          light: 'rgb(255, 255, 255)',
+          dark: 'rgb(50, 50, 50)',
+        },
+        config: {
+          margin: 24,
+        },
+      },      
     }),
   markdown: {
     format: 'mdx',
@@ -180,4 +190,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
     v4: true,
     experimental_faster: true,
   },
+  plugins: [
+    require.resolve('docusaurus-plugin-image-zoom'),
+  ],
 });
