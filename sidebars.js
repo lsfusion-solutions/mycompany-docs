@@ -210,6 +210,7 @@ const sidebars = {
                 'projectManagement/time-entries',
                 'projectManagement/timesheets',
                 'projectManagement/team-and-roles',
+                'projectManagement/shifts',
                 'projectManagement/reports',
                 'projectManagement/settings',
             ],
