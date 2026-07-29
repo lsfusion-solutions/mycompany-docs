@@ -6,7 +6,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 (module.exports = {
   title: 'MyCompany documentation',
   tagline: 'MyCompany',
-  url: 'https://lsfusion-solutions.github.io',
+  url: 'https://mycompany-docs.lsfusion.org/',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenAnchors: 'ignore', // Should be updated to 'warn' in the future due to current functionality issues
