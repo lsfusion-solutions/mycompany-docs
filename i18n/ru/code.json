@@ -202,5 +202,21 @@
   "theme.tags.tagsPageTitle": {
     "message": "Теги",
     "description": "The title of the tag list page"
+  },
+  "video.source.vk": {
+    "message": "ВК",
+    "description": "Label of the VK tab in the video source switcher"
+  },
+  "video.frame.title": {
+    "message": "Видео",
+    "description": "Default title of the video player iframe"
+  },
+  "video.switcher.ariaLabel": {
+    "message": "Источник видео",
+    "description": "ARIA label of the video source switcher"
+  },
+  "video.watchLink.label": {
+    "message": "Смотреть видео",
+    "description": "Label of the link leading to the video section of the article"
   }
 }

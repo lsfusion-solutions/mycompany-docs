@@ -309,5 +309,21 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tagi",
     "description": "The title of the tag list page"
+  },
+  "video.source.vk": {
+    "message": "VK",
+    "description": "Label of the VK tab in the video source switcher"
+  },
+  "video.frame.title": {
+    "message": "Wideo",
+    "description": "Default title of the video player iframe"
+  },
+  "video.switcher.ariaLabel": {
+    "message": "Źródło wideo",
+    "description": "ARIA label of the video source switcher"
+  },
+  "video.watchLink.label": {
+    "message": "Obejrzyj wideo",
+    "description": "Label of the link leading to the video section of the article"
   }
 }

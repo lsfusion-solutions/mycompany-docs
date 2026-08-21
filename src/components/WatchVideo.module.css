@@ -1,0 +1,27 @@
+.link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 1.2rem;
+  padding: 6px 16px 6px 12px;
+  font-size: 0.9rem;
+  line-height: 1.2;
+  border: 1px solid var(--ifm-color-primary);
+  border-radius: 999px;
+  background-color: var(--ifm-color-primary);
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.link:hover,
+.link:focus-visible {
+  background-color: var(--ifm-color-primary-darker);
+  border-color: var(--ifm-color-primary-darker);
+  color: #fff;
+  text-decoration: none;
+}
+
+.icon {
+  flex: none;
+}
