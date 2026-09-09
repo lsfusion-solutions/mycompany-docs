@@ -80,7 +80,7 @@ Typical fields:
 - **Phone**, **Email**;
 - **Archived** — a flag to exclude the partner from active use.
 
-![Partner card](images/partner-card.png)
+![Partner card](images/partner-card.webp)
 
 ### Vendor purchase settings
 
@@ -95,6 +95,7 @@ An **employee** is an individual of your own company that is also a system user.
 The employee card contains:
 
 - **Login**, the **Change password** action, and the **Locked** flag — the user account;
+- **Manage all comments** — a moderator flag: by default a user can edit and delete only their own comments, this flag lifts the restriction;
 - **Roles** — the user's permission roles;
 - **Legal entity** — must be one of your companies (prefilled when there is exactly one);
 - **Department**, **Position**;

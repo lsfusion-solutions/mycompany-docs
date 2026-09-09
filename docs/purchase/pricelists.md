@@ -6,7 +6,7 @@ title: Vendor pricelists
 
 Forms for working with pricelists are usually located at **“Purchase” → “Operations” → “Vendor pricelists”**.
 
-![Vendor pricelists list](images/pricelists-list.png)
+![Vendor pricelists list](images/pricelists-list.webp)
 
 ## Purpose
 
@@ -18,7 +18,7 @@ A **pricelist** stores [vendor](../masterdata/partners.md) prices and is used fo
 
 ## Pricelist structure
 
-![Vendor pricelist card](images/pricelist-card.png)
+![Vendor pricelist card](images/pricelist-card.webp)
 
 In a pricelist, you typically specify:
 
@@ -43,7 +43,8 @@ If the vendor is flagged **“Other units of measure”**, the lines also show a
 The pricelist card may contain a comment feed:
 
 - add comments to record agreements and the source of prices;
-- view the date/time and author of comments.
+- view the date/time and author of comments;
+- edit and delete your own comments (others' — only with the **Manage all comments** flag on the employee card); edits are marked as **“Edited”**.
 
 The **“Files”** tab stores files attached to the pricelist (for example, the source file of an import).
 
